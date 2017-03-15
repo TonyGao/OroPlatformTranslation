@@ -1,0 +1,13 @@
+oro.translation:
+    download:
+        error: '下载软件包时出错'
+
+    system_configuration:
+        fields:
+            available_translations.label: '可用的翻译'
+
+    action:
+        download: '下载'
+        enable: '开启'
+        disable: '关闭'
+        update: '更新'

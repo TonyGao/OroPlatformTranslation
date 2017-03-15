@@ -1,0 +1,6 @@
+oro:
+    search:
+        module_name: "搜索"
+        result:
+            all: "全部"
+            empty: 没有结果

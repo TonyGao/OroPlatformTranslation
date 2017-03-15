@@ -1,0 +1,11 @@
+oro:
+    entity:
+        field_choice:
+            fields:           字段
+            relations:        涉及数据实体
+            none:             无
+        form:
+            choose_entity_field:    选取一个字段...
+        not_exist: "已使用的数据实体或它的字段并不存在"
+
+"Change Entity Confirmation": "修改数据实体确认"

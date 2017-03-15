@@ -1,0 +1,15 @@
+oro:
+  dashboard:
+    widget_configuration_label: 配置
+    widget_configuration_success: 组件已被成功配置
+    drop_placeholder_label: 拖放你的组件到这里。
+    add_dashboard_widgets:
+      title: 仪表盘组件
+      adding: 正在添加...
+    widget:
+      collapse: 收起
+      expand: 展开
+      move: 移动
+      remove: 删除
+      configure: 配置
+      delete_confirmation: 你确定想要删除这个组件吗？

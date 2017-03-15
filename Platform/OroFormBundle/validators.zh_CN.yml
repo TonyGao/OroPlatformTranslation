@@ -1,0 +1,10 @@
+"This value is not a valid time.": "此值不是有效时间。"
+"This value should be entity class or alias.": "此值应该是数据实体类或其别名。"
+"The entity was not found.": "此数据实体不存在。"
+oro:
+    form:
+        number:
+            min: "]-Inf,Inf[此值必须大于 {{ limit }}."
+            max:  "]-Inf,Inf[此值必须小于 {{ limit }}."
+            exect: "]-Inf,Inf[此值必须等于 {{ limit }}."
+            nan: "请输入一个有效的数字。"

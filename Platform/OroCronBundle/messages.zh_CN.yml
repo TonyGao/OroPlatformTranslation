@@ -1,0 +1,76 @@
+oro:
+    cron:
+        action:
+            jobs_management: 进入任务队列
+
+        header:
+            command:      命令
+            error:        错误输出
+            id:           ID
+            jobs:         任务
+            memory:       内存使用, MB
+            output:       输出
+            priority:     优先级
+            queue:        队列
+            retry:        任务重试
+            runtime:      运行时间, s
+            state:        状态
+            statistics:   统计
+            trace:        堆栈跟踪
+            view:         查看
+            job:          '任务 "%name%"'
+            started_at:   开始于
+            closed_at:    关闭于
+
+        menu:
+            cron_job.description:          定时执行任务队列
+            cron_job.label:                任务队列
+            cron_job_shortcut.label:       任务列表
+            cron_job_shortcut.description: 定时执行任务的列表
+            cron_schedule.label:           已安排任务
+            cron_schedule.description:     定时执行已安排任务
+
+        message:
+            start:
+                fail:     开启值守进程失败
+                success:  值守进程开始
+            stop:
+                fail:     停止值守进程失败
+                success:  值守进程已停止
+
+        sidebar:
+            check:        检查状态
+            not_running:  没在运行
+            pid:          值守进程 PID
+            run:          运行值守进程
+            running:      正在运行
+            status:       值守进程状态
+            stop:         停止值守进程
+
+        view:
+            dependencies: 依赖
+            in_deps:      传入依赖
+            original:     原始任务
+            related:      相关数据实体
+
+        job:
+            status:
+                new:        新建
+                pending:    待定
+                canceled:   退出
+                running:    正在运行
+                finished:   结束
+                failed:     失败
+                terminated: 被终止
+                incomplete: 未完成
+                unknown:    未知
+
+        schedule:
+            entity_label: '安排'
+            entity_plural_label: '安排'
+
+            id.label: 'Id'
+            command.label: '命令'
+            arguments.label: '参数'
+            arguments_hash.label: '参数哈希'
+            definition.label: '定义'

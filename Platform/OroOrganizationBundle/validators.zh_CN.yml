@@ -1,0 +1,1 @@
+"The given value {{ value }} cannot be set as {{ owner }} for given entity for security reason.": 出于安全原因，给定值{{ value }}不能设置为{{ owner }}。

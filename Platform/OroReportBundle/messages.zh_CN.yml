@@ -1,0 +1,108 @@
+oro:
+    query_designer:
+        aggregates:
+            identifier:
+                Count:
+                    name: 数量
+                    hint: 子项数量
+            string:
+                Count:
+                    name: 数量
+                    hint: 子项数量
+            number:
+                Count:
+                    name: 数量
+                    hint: 子项数量
+                Sum:
+                    name: 合计
+                    hint: 所有值的合
+                Avg:
+                    name: 平均值
+                    hint: 平均值
+                Min:
+                    name: 最小值
+                    hint: 最小值
+                Max:
+                    name: 最大值
+                    hint: 最大值
+            date:
+                Count:
+                    name: 数量
+                    hint: 子项的数量
+                Min:
+                    name: 最小值
+                    hint: 最小值
+                Max:
+                    name: 最大值
+                    hint: 最大值
+
+        filter:
+            boolean.select_value.label: 选取值
+
+    report:
+        menu:
+            manage_reports.label:   管理自定义报表
+        type:
+            table: 表格
+        datagrid:
+            column:
+                name:               名称
+                entity:             数据实体
+                report_type:        报表类型
+            row:
+                action:
+                    view:           查看
+        form:
+            designer:               设计器
+            chart_designer:         图标设计器
+            columns:                字段
+            grouping:               分组
+            filters:                过滤器
+            choose_report_type:     选择一个报表类型...
+
+        chart_options.label: 图标选项
+        definition.label:    定义
+        description.label:   描述
+        entity.label:        数据实体
+        entity_label:        报表
+        entity_description:  报表描述
+        entity_plural_label: 报表
+        id.label:            Id
+        name.label:          名称
+        owner.label:         属于
+        type.label:          报表类型
+        organization.label:  组织
+
+        reporttype:
+            entity_label:        报表类型
+            entity_plural_label: 报表类型
+            entity_description:  报表类型描述
+            name.label:          名称
+            label.label:         标签
+            chart.label:         图表
+            hasChart:
+                label:   报表设计
+                tooltip: 添加图表到报表
+
+        action:
+            view_sql.label: 查看一个报表/分割块的 SQL 操作
+        system_configuration:
+            groups:
+                report_settings.title: 报表设定
+            fields:
+                display_sql_query.label: 在报表和分割块显示SQL
+                display_sql_query.tooltip: 在它们的视图页显示一个报表或分割块的SQL操作
+
+"New Report": 新报表
+"Manage Custom Reports": 管理自定义报表
+"Manage Custom Reports - Reports": 管理自定义 报表 - 报表
+"Create Report - Reports": 创建 报表 - 报表
+"%report.name% - Edit - Reports": %report.name% - 编辑 - 报表
+"%report.name% - Reports": %report.name% - 报表
+
+"Edit report": 编辑报表
+"Delete report": 删除报表
+"Are you sure you want to delete this report?": 你确定想要删除这个报表吗？
+"Report deleted": 报表已删除
+"Report saved": 报表已保存
+"Invalid report configuration": 没有要显示的数据。请转到编辑报表页面，并确保报表已正确配置。

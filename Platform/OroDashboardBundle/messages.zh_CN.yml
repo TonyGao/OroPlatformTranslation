@@ -1,0 +1,113 @@
+oro:
+    dashboard:
+        title:
+            main:            仪表盘
+            quick_launchpad: 快速启动板
+            chose_dashboard: 选择仪表盘
+            label: 组件标题
+            use_default.label: 使用默认
+
+        entity_label:        仪表盘
+        entity_plural_label: 仪表盘
+        id.label:            Id
+        is_default.label:    是默认值
+        label.label:         标签
+        management_title:    管理仪表盘
+        name.label:          名称
+        owner.label:         属于
+        widgets.label:       组件
+        organization.label:  组织
+        options.label:       选项
+
+        start_dashboard: 复制自
+        start_dashboard.empty_value: 空仪表盘
+
+        quick_launchpad_widget_description: 这个组件让你进入很多通常使用的操作和页面
+
+        grid:
+            fields:
+                grid_view.label: 数据表视图
+
+        no_data_found:    没有数据
+
+        no_one_available: 没有仪表盘可用
+
+        empty_column_message:
+            allowed: 拖拽你的组件到这里或 <a class="dashboard-widgets-add" href="#">添加一个新组件</a>.
+            denied: 没有组件可用
+
+        add_dashboard_widgets:
+            add_to_dashboard: 添加
+            add_widget: 添加组件
+
+        list: 列表
+
+        saved_message: 仪表盘已保存
+
+        menu:
+            dashboards_tab:
+                label: 仪表盘
+            dashboards_list:
+                label: 管理仪表盘
+
+        label: 标签
+        owner: 属于
+
+        tools_dropdown:
+            label: 工具
+        edit_dashboard_link:
+            title: 编辑当前仪表盘
+            text:  编辑
+        create_dashboard_link:
+            title: 创建新仪表盘
+            text:  创建
+        delete_dashboard_link:
+            title: 删除当前仪表盘
+            text:  删除仪表盘
+        chart:
+            year.label: 年
+            month.label: 月
+            date.label: 周
+            day.label: 天
+            time.label: 小时
+        date_range.label: 日期范围
+        query_filter:
+            label: 高级过滤器
+            collapse: 收起
+            expand: 展开
+        previous_date_range.label: 与之前比较
+        datagrid:
+            columns:
+                actions: 操作
+            actions:
+                move_column.label: 移动字段
+                move_column_up.label: 上移字段
+                move_column_down.label: 下移字段
+                add.label: 添加
+                add_all.label: 添加全部
+                delete.label: 删除字段
+        form.choose_business_unit: 选择一个部门...
+
+        widget:
+            big_number:
+                choose_metrics: 选择计量单位
+                metrics: 计量单位
+                choose_metrics_placeholder: 选择计量单位...
+                metricName: 计量单位名称
+                no_changes: 没变化
+                compare_to.label: 相比于
+                no_available_metrics: 没有可用的计量单位
+            filter:
+                date_range:
+                    today: '今天'
+                    this_week: '本周'
+                    this_month: '本月'
+                    this_quarter: '本季度'
+                    this_year: '今年'
+                    all_time: '不限时间'
+            sort_by:
+                label: 排序自
+                property.placeholder: 选择一个属性...
+                order:
+                    asc.label: 升序
+                    desc.label: 降序

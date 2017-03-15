@@ -1,0 +1,4 @@
+oro:
+    security:
+        organization:
+            access_denied: 您已失去对组织"%organization_name%"的访问权限。请重新登录。

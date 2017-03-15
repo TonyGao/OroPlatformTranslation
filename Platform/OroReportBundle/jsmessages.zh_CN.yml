@@ -1,0 +1,11 @@
+oro:
+    report:
+        change_entity_confirmation: 更改数据实体将清除所有报表过滤器和字段。你想继续吗？
+
+        view_sql:
+            show_sql_query: 显示SQL操作
+            hide_sql_query: 隐藏SQL操作
+            messages:
+                copied: 已复制到剪贴板。
+                copy_not_successful: 复制命令没成功。
+                copy_not_supported: 你的浏览器不支持复制命令。请按 Ctrl/Cmd + c 来复制。

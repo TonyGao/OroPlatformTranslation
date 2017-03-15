@@ -1,0 +1,61 @@
+"Choose an organization...": 选择一个组织...
+
+oro:
+    custom_entity:
+        owner.label:          属于
+        owner.description:    ""
+        organization.label:   组织
+
+    business_unit:
+        label: 部门
+        menu:
+            list.description: 部门列表
+        controller:
+            message:
+                saved: 部门已保存
+        form:
+            choose_business_user: 选择一个部门...
+            none_business_user: 无
+        datagrid:
+            action:
+                view:   查看
+                update: 更新
+                delete: 删除
+            owner: 持有者部门
+            has_business_unit: 有部门
+        dashboard:
+            current_business_unit: "当前用户的部门"
+    organization:
+        entity_label:         组织
+        entity_plural_label:  组织
+        entity_description:   组织描述
+        id.label:          Id
+        name.label:        名称
+        description.label: 描述
+        enabled.label:     状态
+        business_units.label: 部门
+        users.label:       用户
+        form:
+            choose_organization: 选择一个组织...
+
+        businessunit:
+            email.label:         邮箱
+            entity_description:  部门描述
+            entity_label:        部门
+            entity_plural_label: 部门
+            fax.label:           传真
+            id.label:            Id
+            name.label:          名称
+            organization.label:  组织
+            owner.label:         属于
+            parent.label:        父级部门
+            phone.label:         电话
+            users.label:         用户
+            website.label:       网站
+            extend_description.label: 描述
+
+        controller:
+            message:
+                saved: 组织已保存
+        menu.list.description: 编辑组织信息
+

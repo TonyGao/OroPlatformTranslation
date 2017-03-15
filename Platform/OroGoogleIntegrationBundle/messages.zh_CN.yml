@@ -1,0 +1,13 @@
+oro:
+    google_integration:
+        system_configuration:
+                groups:
+                    google_settings.title: 谷歌设定
+                    google_integration_settings.title: 谷歌交互设定
+                    google_integration_settings.tooltip: 请阅读<a href="https://support.google.com/cloud/answer/6158862?hl=en" target="_blank">说明</a>以获取凭证。确保您的OroCRM域包含在`授权的JavaScript来源`和`授权的重定向URI`中。
+                fields:
+                    domains.label: 域名
+                    domains.tooltip: 逗号分隔允许的域列表
+                    client_id:
+                        label: 客户端 Id
+                    client_secret.label: 客户端密码

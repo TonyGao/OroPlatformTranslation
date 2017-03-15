@@ -1,0 +1,226 @@
+Add another email: 添加另一个邮箱
+Additional: 额外信息
+"Opportunity Information": "商机信息"
+"New contact": "新联系人"
+"Information": "信息"
+"Contact Details": "联系人明细"
+
+"%groups% and %roles%": "%groups%和%roles%"
+
+oro.user.form.choose_user: 选取一个用户...
+oro.user.form.choose_gender: 选择性别...
+oro.user.gender.male: 男
+oro.user.gender.female: 女
+
+Username: 用户名
+Password: 密  码
+"Remember me on this computer": 记住密码
+"Forgot your password?": 忘记密码?
+"Log in": 登  录
+Login: 登录
+Logout: 注销
+Login page: 登陆页面
+"Forgot Password": "忘记密码"
+"Password Reset": "密码重置"
+"Reset password": "重置密码"
+"Generate key was successful. New key:": "已生成新的秘钥。新秘钥&#58;"
+"Generate key": "生成秘钥"
+"Access Settings": "准入设定"
+"Organization": "所属组织"
+"Business Unit": "部门"
+"User": "用户"
+"None": "没有"
+"There is no active user with username or email address \"%username%\".": "不存在用户名或邮箱为\"%username%\"的用户。"
+"Username or Email": "用户名或邮箱"
+"Return to Login": "返回登录"
+"Request": "请求"
+
+User account is locked.: 用户账号被锁定
+User account is disabled.: 用户账号已关闭
+User account has expired.: 用户账号已过期
+
+change_password:
+    flash:
+        success: 密码修改成功
+resetting:
+    flash:
+        success: 密码已被重置
+
+oro:
+    user:
+        form:
+            access_settings.label: 部  门
+            signature.label: 邮件签名
+            choose_role: 选取一个角色...
+            business_units.label: 组织部门
+        menu:
+            system_tab.label: 系统
+            user_list.description: 系统用户列表
+            user_roles.description: 系统角色列表
+            user_groupes.description: 系统分组列表
+            users_management.label: 用户管理
+            user_create.label: 创建用户
+            shortcut_new_user.label: 创建一个新用户
+            shortcut_new_user.description: 创建新用户实例
+            shortcut_list_users.label: 显示用户列表
+            shortcut_list_users.description: 全体系统用户列表
+            shortcut_new_role.label: 创建新角色
+            shortcut_new_role.description: 创建新角色实例
+            shortcut_new_group.label: 创建新分组
+            shortcut_new_group.description: 创建新分组实例
+            oro_user_profile_view.label: 我的用户
+            oro_user_profile_configuration.label: 我的配置
+        controller:
+            group.message.saved: "分组已保存"
+            role.message.saved: "角色已保存"
+            user.message.saved: "用户已保存"
+            status.message.saved: "状态已保存"
+            invite.fail.message: 邀请邮件发送失败
+        user_configuration:
+            label: 配置
+            use_default: 使用系统
+            grid.action.config: 配置
+        #
+        # Oro/Bundle/UserBundle/Entity/User
+        #
+        api_keys.label:              API 秘钥
+        api.label:                   API 秘钥
+        birthday.label:              生日
+        business_units.label:        部门
+        organizations.label:         组织
+        confirmation_token.label:    确认令牌
+        current_status.label:        当前状态
+        groups.label:                分组
+        email.label:                 主要邮箱
+        email:
+            entity_label:            用户邮箱地址
+            entity_plural_label:     用户邮箱地址
+            entity_description:      用户邮箱描述
+            email.label:             邮箱
+            id.label:                Id
+            user.label:              用户
+        phone.label:                 电话
+        email_origins.label:         邮箱来源
+        emails.label:                邮箱
+        enabled.label:               状态
+        entity_description:          用户简介描述
+        entity_label:                用户
+        entity_plural_label:         用户
+        first_name.label:            姓
+        id.label:                    Id
+        avatar.label:                头像
+        imap_configuration.label:    邮件同步设定
+        imap_configuration.update:   更新设定
+        last_login.label:            最后登录于
+        last_name.label:             名
+        login_count.label:           登录次数
+        middle_name.label:           中间名
+        name_prefix.label:           称呼前缀
+        name_suffix.label:           称呼后缀
+        owner.label:                 归属
+        password.label:              密码
+        password_re.label:           重新输入密码
+        password_requested_at.label: 密码创建于
+        password_changed_at.label:   密码修改于
+        new_password.label:          新密码
+        new_password_re.label:       重新输入新密码
+        roles.label:                 角色
+        salt.label:                  随机盐
+        statuses.label:              状态
+        username.label:              用户名
+        organization.label:          组织
+        business_unit.label:         部门
+
+        # extended field added in migrations
+        title.label:                 职务
+
+        #
+        # Oro/Bundle/UserBundle/Entity/Group
+        #
+        group:
+            entity_label:        分组
+            entity_plural_label: 分组
+            entity_description:  角色分组
+            id.label:    Id
+            name.label:  名称
+            roles.label: 角色
+            owner.label: 归属
+            organization.label: 组织
+            has_group.label: 已分组
+        #
+        # Oro/Bundle/UserBundle/Entity/Role
+        #
+        role:
+            entity_label:        角色
+            entity_plural_label: 角色
+            entity_description:  用户的角色
+            id.label:     Id
+            role.label:   角色
+            label.label:  标签
+            owner.label:  归属
+            has_role.label: 已分配角色
+            extend_description.label: 描述
+            organization.label: 组织
+            actions:
+              edit: 编辑
+
+        invite:
+            label: 发送一封邀请邮件
+        privileges:
+            entity.label: 数据实体
+            field.label:  字段
+            action.label: 权利
+        privilege:
+            category:
+                account_management.label: 账户管理
+                address.label: 地址
+                application.label: 应用程序
+                calendar.label: 日程
+                entity.label: 数据实体
+        password:
+            change_dialog.title: 修改密码
+            reset_dialog.title: 重置密码
+            reset_password.label: 重置密码
+            change_password.label: 修改密码
+            new_password.label: 新密码
+            enter_new_password.label: 输入新密码
+            enter_new_password_again.label: 再次输入新密码
+            reset.label: 重置
+            reset:
+                ttl_already_requested.message: 这个用户的密码已经在过去24小时内被请求过了
+                popup.message: 用户 {{ user }} 将收到重置密码的邮件。
+                popup.question: 确定要继续吗？
+        action:
+            password_management:
+                label: 管理密码
+                description: 重置或修改其他用户的密码
+            update_profile:
+                label: 更新用户资料
+                description: 允许用户更新他们自己的资料，忽略是否有对用户数据实体的编辑权限。
+            update_configuration:
+                label: 进入个人配置
+                description: 允许进入个人应用程序配置，如语言，本地化，邮箱设定，等等。忽略对用户数据实体的配置权限。
+        permission:
+            update_configuration:
+                label: 配置
+
+        security:
+            password_changed.message: 你的密码已被管理员更新。新密码将通过邮件发送给你。
+            password_reseted.message: 你的密码已经成功重置。你现在可以登录了。
+        user_bar_settings:
+            title: 用户栏
+        image.tooltip: 头像必须是 BMP, JPEG 或 PNG 格式，并且文件大小要小于 %file_size%
+        invite.tooltip: 当这个选项被选中，会发送一封邀请邮件
+        api.tooltip_text: >
+            API key could be used for authentication in third party software.
+            Please keep your regular password in secret.
+            API 秘钥将被用来为第三方软件做用户验证。
+            请将您平常的密码保密。
+
+        dashboard:
+            role: 角色
+            owner: 归属
+            owners: 归属
+            all_owners: 所有用户
+            business_unit: 部门
+            current_user: 当前用户

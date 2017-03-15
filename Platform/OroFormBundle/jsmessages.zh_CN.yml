@@ -1,0 +1,23 @@
+Default: 默认
+Remove: 删除
+Add: 添加
+"Select {{ entity }}": "选择 {{ entity }}"
+"Create {{ entity }}": "创建 {{ entity }}"
+"Please select": "请选择"
+oro:
+    form:
+        choose_date: 选择一个日期
+        choose_time: 时间
+        new: 新的
+        add_new: 添加新的
+        inlineEditing:
+            inline_edits: "内联编辑"
+            successMessage: "记录已更新成功"
+            helpMessage: "双击单元格进行编辑"
+            loadingError: "无法加载数据列表内联编辑器的组件或视图"
+            saving_progress: "内联编辑已被保存"
+            action:
+                save: 保存修改
+                cancel: 退出
+            multi_checkbox_editor:
+                filter.placeholder: 过滤器值...

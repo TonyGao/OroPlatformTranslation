@@ -1,0 +1,14 @@
+"Schema update confirmation": "数据库更新确认"
+"Your config changes will be applied to schema.": "你的配置修改将被应用到数据库。"
+"It may take few minutes...": "这可能会花几分钟的时间..."
+"Yes, Proceed": "是的，执行"
+"Field successfully deleted": "字段已成功删除"
+"Field was restored": "字段已恢复"
+"This field cannot be restored because a field with similar name exists.": "无法还原此字段，因为存在具有相似名称的字段。"
+
+oro:
+    entity_extend:
+        schema_updated: 数据库已更新
+        schema_update_failed: 数据库更新失败
+        delete_field.confirm_content: 你确定想要删除这个字段吗？
+        enum_value_collection.clear_default: 不要设置默认值

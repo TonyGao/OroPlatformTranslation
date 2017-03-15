@@ -1,0 +1,61 @@
+oro:
+    activitylist:
+        entity_label:        营销活动列表
+        entity_plural_label: 营销活动列表
+        entity_description:  营销活动列表描述
+
+        id.label:            Id
+        owner.label:         创建人
+        editor.label:        变更人
+        verb.label:          动词
+        subject.label:       标题
+        data.label:          数据
+        organization.label:  组织
+        related_activity_class.label: 相关营销活动类
+        related_activity_id.label:    相关营销活动 id
+        created_at.label:    创建时间
+        updated_at.label:    更新时间
+        head.label:          是表头
+        description.label:   描述
+
+        no_activities_exist: 没找到任何营销活动
+
+        widget:
+            load_more.title: 再加载{{ count }}条信息
+        system_configuration:
+            activity_list.label: 营销活动列表
+            fields:
+                sorting_field:
+                    label:   通过字段排序
+                    choices:
+                        createdAt: 创建日期
+                        updatedAt: 变更日期
+                sorting_direction:
+                    label: 排序方向
+                    choices:
+                        DESC: 降序
+                        ASC:  升序
+                per_page.label: 默认每页的子项
+            email_threads:
+                use_threads_in_activities:
+                    label: 显示营销活动邮件
+                    choices:
+                        non_threaded.label: 没有相关回复
+                        threaded.label: 追溯相关回复
+
+        pagination:
+            newer: 下一页
+            older: 上一页
+
+        condition_builder:
+            criteria:
+                activity: 营销活动
+        activity_owners.label: 营销活动属于
+        merge.items.label: '子项|多条子项'
+
+    entity_merge:
+        merge_modes:
+            activity_unite: 追加
+            activity_replace: 替换
+    activity:
+        merge.label: %activity%营销活动

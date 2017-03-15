@@ -1,0 +1,33 @@
+oro:
+    comment:
+        plural_label: 备注
+        entity_plural_label: 备注
+        action:
+            delete: 删除备注
+            update: 更新备注
+        dialog:
+            add_comment.title: 添加备注
+            edit_comment.title: 编辑备注
+        from:
+            button:
+                send_comment:
+                    label: 添加
+                add_comment:
+                    label: 添加备注
+                edit_comment:
+                    label: 保存备注
+                cancel_comment:
+                    label: 退出
+        attachment:
+            tooltip: 附件文件 {{ filename }}
+            delete_message: 备注附件已成功删除
+            delete_confirmation: 你确定想删除这个附件吗？
+            download: 下载
+            view: 查看
+        item:
+            added: '{{ user }}添加于{{ time }}'
+            update: '由{{ user }}更新于{{ time }}'
+        deleteConfirmation: 你确定想要删除这条备注吗？
+        noData: 没发现备注。
+        loadMore: 加载{{ count }}条备注
+        loadMoreWithTotals: 加载{{ count }}条备注，共计：{{ total }}条

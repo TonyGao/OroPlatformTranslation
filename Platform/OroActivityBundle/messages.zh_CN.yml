@@ -1,0 +1,19 @@
+oro:
+    activity:
+        activities:           客户关系管理
+
+        menu:
+            activities_tab.label: 客户关系管理
+
+        sections:
+            activities:       客户关系管理
+
+        contexts:
+            label:                    关联信息
+            placeholder:              添加关联信息
+            added:                    关联信息已添加
+            added.already:            关联信息已经被添加
+            type.not_supported:       不支持此关联信息的类型
+            removed:                  关联信息已被删除
+            add_context.label:        添加关联信息
+            add_context_entity.label: 添加关联信息数据实体

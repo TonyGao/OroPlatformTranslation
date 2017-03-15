@@ -1,0 +1,62 @@
+oro:
+    email:
+        menu:
+            mark_unread:
+                success.message: 信息已标记为未读
+                error.message: 标记信息为未读报错
+        emailtemplate:
+            load_failed: 加载模板时发生了错误。
+            variable_title: '{{ variable_label }}. 点击插入变量或拖拽它。'
+            reference_title: '{{ variable_label }}. 点击进入相关变量。'
+            change_entity_confirmation: 此模板数据变量可以涉及包含之前选定的数据实体。 你想要清除所有模板数据吗？
+            apply_template_confirmation_title: 应用模板确认
+            apply_template_confirmation_content: 主体内容将被一个模板所取代。你确定想要执行吗？
+            cannot_insert_variable: 不能插入变量，请将鼠标放到模板的标题或内容里。
+        thread:
+            load_error: 抱歉，相关邮件没被正确加载。
+            no_signature: 你还没有邮件签名。请在<a href="{{ url }}">我的配置</a>添加它。
+            no_signature_no_permission: 你还没有邮件签名。联络你的系统管理员添加它。
+            collapse_all:
+                label: 全部折叠
+                tooltip: 将相关邮件全部折叠
+            expand_all:
+                label: 全部展开
+                tooltip: 将相关邮件全部展开
+        to: 发送至
+        attachment:
+            added: 附件已添加
+        send_email: 邮件已发送
+        menu.shortcut_compose_email.label: 创建邮件
+        action:
+            success_mark_read: "邮件已被标记为已阅"
+            success_mark_unread: "邮件已被标记为未读"
+            error: Error has occurred
+        error:
+            get_email_last: "获取最新邮件失败"
+            mark_as_read: "标记全部为已阅失败"
+        recent_emails_widget:
+            title_all_folders: 最新邮件
+            settings: 当前邮件组件设定
+            mailbox_folder: 邮箱文件夹
+            all_folders: 全部
+            mark_visible_read.label: 标记可见的为已阅
+            amount_of_emails: 邮件显示数量
+            default_action: 默认操作
+            default_action_hint: 在已扩展的侧边栏组件里的默认操作
+            reply_all: 全部回复
+            reply: 回复
+            forward: 发送
+            description: "这个组件允许您查看收件箱和发件箱中的最新添加的内容"
+        notification:
+            menu_item.hint: 最新邮件
+            mark_read.label: 标记全部为已阅
+            user_emails.label: 我的邮件
+            empty: 没收到任何邮件
+            new_email: 你有一封新邮件
+            more_unread: 更多未读
+"The email was sent": "邮件已发送"
+"Preview": "预览"
+"Yes, Proceed": "是的，执行"
+"Not Found": "未发现"
+"Successfully removed": "删除成功"
+"Read": 阅读

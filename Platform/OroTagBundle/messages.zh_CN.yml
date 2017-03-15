@@ -1,0 +1,53 @@
+oro:
+    tag:
+        menu:
+            shortcut_new_tag.label: 创建新标签
+            shortcut_new_tag.description: 创建新标签
+            tag_list.description: 标签列表
+            all_tags: 全部标签
+            my_tags: 我的标签
+
+        controller:
+            tag.saved.message: "标签已保存"
+        form:
+            choose_tag: "选取一个标签"
+            choose_or_create_tag: "选择一个已存有标签或创建一个新的"
+        datagrid:
+            usage_count: 使用计数
+            search:      按标签搜索
+            search_result: 标记为"%name%"的记录
+
+        created_by.label:    创建人
+        entity_description:  显示由此标签标记的记录
+        entity_label:        标签
+        entity_plural_label: 标签
+        id.label:            Id
+        name.label:          名称
+        owner.label:         属于
+        tagging.label:       标记
+        updated_by.label:    更新于
+        organization.label:  组织
+
+        action:
+            assign_unassign: "分配/取消分配标签"
+            unassign_global: 
+                label: "取消分配其他标签"
+                description: "移除用户自己以外的标签"
+
+        tagging:
+            alias.label:         别名
+            entity_description:  标记描述
+            entity_label:        标记
+            entity_name.label:   数据实体名
+            entity_plural_label: 标记
+            id.label:            Id
+            owner.label:         属于
+            record_id.label:     记录
+            tag.label:           标签
+
+        tags_label: 标签
+
+        config:
+            enabled: 启用标签
+            disable.alert: 禁用标签将不可逆地删除所有现有标签
+

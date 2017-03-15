@@ -1,0 +1,20 @@
+oro.entity_pagination:
+    pager_of_%total%_record|pager_of_%total%_records: '，总记录数：%total%|，总记录数：%total%'
+    first: 'First'
+    last: 'Last'
+
+    message:
+        stats_number_view_%count%_record|stats_number_view_%count%_records: '你正在查看第%count%条记录。|你正在查看第%count%条记录。'
+        stats_number_edit_%count%_record|stats_number_edit_%count%_records: '你正在编辑第%count%条记录。|你正在编辑第%count%条记录。'
+        not_available: '某些记录不再可用。'
+        not_accessible: '您没有足够的权限来访问记录。'
+        stats_changed_view_to_edit: '您没有足够的权限来编辑所有选定的记录。'
+
+    system_configuration:
+        fields:
+            enabled:
+                label: '记录分页'
+                tooltip: '从视图页面导航到上一个或下一个数据表格实体'
+            limit:
+                label: '记录分页限制'
+                tooltip: '记录分页支持的最大记录数'

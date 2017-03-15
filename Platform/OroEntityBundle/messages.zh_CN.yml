@@ -1,0 +1,55 @@
+oro:
+    entity:
+        controller:
+            message:
+                saved:              数据实体已保存
+                access_denied:      你还没进入编辑这个字段名称
+                field_not_found:    没在数据实体里找到字段名称
+                exactly_field_not_found: 没在数据实体里被找到
+        form:
+            choose_entity:          选取一个数据实体...
+            choose_entity_field:    选取一个字段...
+            choose_entity_fields:   选取字段...
+            entity_fields:          字段
+            entity_related:         涉及
+
+        plural_label: 数据实体
+        item: "子项#%id%"
+
+        validation:
+            unique_field: 字段的值"%field%"必须是唯一的|值的合并结果"%field%"字段必须是唯一的
+
+        datagrid:
+            assigned:     分配给
+
+        entity_config:
+            entity:
+                entity:
+                    items:
+                        icon: 图标
+                        label: 标签
+                        plural_label: 复数标签
+                        description: 描述
+                field:
+                    items:
+                        label: 标签
+                        description: 描述
+                        description.tooltip: 填写时，描述将用作实体表单上的字段工具提示
+            datagrid:
+                field:
+                    items:
+                        is_visible: 添加到数据列表设定
+                        is_visible.shown: 是的，显示
+                        is_visible.hidden: 是的，不要显示
+                        is_visible.mandatory: 是的，强制执行
+                        is_visible.tooltip: 在数据列表设定里控制一个字段的可用性。 "是的，显示" 让它可用(默认显示)，"是的，不要显示"默认隐藏，以及 "是的，强制执行"永久的将它添加到所有数据列表视图
+                        show_filter: 显示数据列表过滤器
+            form:
+                field:
+                    items:
+                        is_enabled: 在表单显示
+            view:
+                field:
+                    items:
+                        is_displayable: 在视图上显示
+                        priority: 优先级

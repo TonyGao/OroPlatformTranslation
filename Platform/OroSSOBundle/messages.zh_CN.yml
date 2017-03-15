@@ -1,0 +1,14 @@
+google: 谷歌
+oro:
+    user:
+        google_id.label: 谷歌 ID
+    sso:
+        login:
+            alternative.label: 或登录使用
+        system_configuration:
+                groups:
+                    google_sso_settings.title: 谷歌单一登录
+                fields:
+                    enable_google_sso.label: 开启
+                    domains.label: 域名
+                    domains.tooltip: 逗号分隔允许的域名列表

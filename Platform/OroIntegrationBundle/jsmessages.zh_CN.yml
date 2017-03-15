@@ -1,0 +1,30 @@
+oro:
+    integration:
+        error: 发生错误，请稍后再试。
+        submit: 你确定想要修改类型吗？
+        change_type: 修改类型
+
+        delete_sync_integration_window:
+            content: "警告：删除集成将删除所有相关数据"
+            button_ok: 是的，删除
+            title: 删除确认
+            success: 集成和所有相关数据已删除
+        channel.sync_priority.tooltip: >
+            选择数据的本地版本或远程程序数据谁具有优先级，这样在从最近一次同步过
+            程后如果各自有了更新，确定以谁为准。
+
+        force_sync:
+            title: 确认全部集成重新同步
+            message: '注意：此操作将开始所有{{ integration_name }}数据的完全重新同步。可能需要一些时间才能完成。'
+            ok: 运行重新同步
+            cancel: 退出
+
+        activate:
+            fail:
+                message:
+                    无法激活集成。
+
+        deactivate:
+            fail:
+                message:
+                    无法停用集成。

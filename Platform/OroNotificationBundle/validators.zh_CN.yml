@@ -1,0 +1,5 @@
+oro:
+    notification:
+          validators:
+              recipient_list:
+                  empty.message: 至少必须指定收件人。

@@ -1,0 +1,68 @@
+oro:
+    attachment:
+        entity_label:        附件
+        entity_plural_label: 附件
+        entity_description:  附件描述
+
+        id.label:            Id
+        comment.label:       备注
+        file.label:          文件
+        owner.label:         属于
+        organization.label:  组织
+
+        block_titles:
+            attachments.label:  附件
+
+        enabled:              开启附件
+        maxsize:              允许的最大文件, 单位：Mb
+        mimetypes:            允许的文件类型(MIME Types)
+        mimetypes.tooltip:    '文件格式(MIME Types)必须遵循此例: application/pdf, image/*'
+
+        max_size.tooltip:     允许上传的最大文件，单位：MB
+        thumb_width.tooltip:  预览图宽度，单位：像素
+        thumb_height.tooltip: 预览图高度，单位：像素
+
+        file:
+            entity_label:            文件
+            entity_plural_label:     文件
+            entity_description:      文件存储
+
+            id.label:                Id
+            filename.label:          文件名
+            original_filename.label: 原始文件名
+            filepath.label:          文件路径
+            owner.label:             属于
+            extension.label:         扩展名
+            file.label:              文件
+            delete_file.label:       删除
+            file_size.label:         文件大小
+            mime_type.label:         文件格式(Mime types)
+
+        config:
+            file_size.label:     文件大小
+            thumb_width.label:   预览图宽度
+            thumb_height.label:  预览图高度
+            attachment.label:    上传设定
+            mime_types.label:    文件格式(Mime types)
+            upload_file_mime_types.label:  文件格式(mime types)
+            upload_file_mime_types.tooltip: 允许上传的文件格式(MIME Types)列表。
+            upload_image_mime_types.label: 图片格式(mime types)
+            upload_image_mime_types.tooltip: 允许上传的图片格式(MIME Types)列表。
+
+        action:
+            add:                 添加附件
+            update:              更新附件
+            saved:               附件保存成功
+            button:
+                update:          更新
+                delete:          删除
+
+        formatter:
+            image_link:
+                default: 不可用
+
+    entity_extend:
+        form:
+            data_type:
+                file:  文件
+                image: 图片

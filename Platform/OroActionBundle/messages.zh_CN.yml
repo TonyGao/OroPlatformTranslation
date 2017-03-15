@@ -1,0 +1,13 @@
+oro:
+    action:
+        edit:           编辑
+        edit_entity:    编辑 %entityLabel%
+        delete:         删除
+        delete_entity:  删除 %entityLabel%
+        delete_message: %entityLabel% 已删除
+        delete_confirm: 你确定想要删除这个%entityLabel%吗?
+        clone:          复制
+        clone_entity:   复制
+        clone.label:    复制 {label}
+        clone.success:  数据实体已复制成功。
+        clone.error:    数据实体复制失败。

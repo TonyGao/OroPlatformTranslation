@@ -1,0 +1,121 @@
+oro.locale:
+    menu:
+        localization:
+            label: 本地化
+        localizations:
+            label: 本地化
+
+    localization:
+        entity_label: '本地化'
+        entity_plural_label: '本地化'
+        entity_description: '使用语言编码，格式化编码，和父级本地化信息'
+
+        id.label: 'Id'
+        name.label: '名称'
+        title.label: '标题'
+        titles.label: '标题'
+        language_code.label: '语言'
+        formatting_code.label: '格式化'
+        child_localizations.label: '子级本地化信息'
+        parent_localization.label: '父级本地化信息'
+
+        widgets:
+            localization_information: 本地化信息
+
+        sections:
+            general: 一般
+
+        navigation:
+            view: '本地化"%name%"'
+
+        form:
+            placeholder:
+                select_parent_localization: '请选取父级本地化信息...'
+                select_language: '请选择语言...'
+                select_formatting: '请选择格式化...'
+
+    localizedfallbackvalue:
+        entity_label: '本地化备用值'
+        entity_plural_label: '本地化备用值'
+        id.label: 'ID'
+        fallback.label: '备用'
+        localization.label: '本地化'
+        string.label: 'String 值'
+        text.label: 'Text 值'
+
+    fallback:
+        type:
+            parent_localization: '父级本地化信息'
+            default: '默认值'
+
+        value:
+            default: '默认值'
+
+        use_fallback:
+            label: '使用'
+
+    controller:
+        localization:
+            saved.message: '本地化信息已经保存成功'
+
+    date_format:
+        day: "MMM d"
+        month: "MMMM Y"
+        quarter: "QQQ Y"
+        year: "'Year' Y"
+
+    address_format:
+        region_name_type:
+            parish: "parish"
+            state: "state"
+            island: "island"
+            county: "county"
+            area: "area"
+            prefecture: "prefecture"
+            do_si: "do_si"
+            department: "department"
+            district: "district"
+            province: "province"
+
+    system_configuration:
+        groups:
+            localization.title: 'Localization'
+            language_settings.title: 'Language settings'
+            language_languages.title: 'Languages'
+            locale_settings.title: 'Localization options'
+            map_settings.title: 'Map options'
+        fields:
+            locale.label: 'Locale'
+            country.label: 'Primary Location'
+            format_address_by_address_country.label: 'Format address per country'
+            language.label: 'Default Language'
+            languages.label: 'Supported languages'
+            timezone.label: 'Timezone'
+            currency.label: 'Currency'
+            quarter_start.label: 'First Quarter Starts on'
+            temperature_unit:
+                label: 'Temperature Unit'
+                choices:
+                    fahrenheit: 'Fahrenheit'
+                    celsius: 'Celsius'
+            wind_speed_unit:
+                label: 'Wind Speed Unit'
+                choices:
+                    miles_per_hour: 'Miles per hour'
+                    kilometers_per_hour: 'Kilometers per hour'
+                    meters_per_second: 'Meters per second'
+    formatter:
+        datetime:
+            default: N/A
+    form:
+        tooltip:
+            languages: "Select the languages that can be used for translation of the email templates."
+            locale: "Locale selection affects formatting of numbers, addresses, names, and dates."
+            location: " If Format address per country option is disabled, or there is no country-specific formatting, the addresses will be formatted according to the rules of primary location."
+            format_address_by_address_country: "When this option is selected, addresses will be formatted according to the rules of their countries. Otherwise, the primary location formatting will be applied."
+            language: "Select the system language from the list of installed translations (see below)."
+            timezone: "Select the timezone of your location. All dates and times will be displayed in the specified timezone."
+            currency: "Select the default currency"
+            quarter_start: "Select the starting date of the first quarter in year."
+            temperature_unit: "Select the temperature unit. This settings will be applied for weather on map."
+            wind_speed_unit: "Select the wind speed unit. This settings will be applied for weather on map."

@@ -1,0 +1,106 @@
+oro:
+    integration:
+        menu:
+            integrations_submenu.label: 集成
+            integrations_list.label: 管理集成
+
+        datagrid:
+            column:
+                name: 名称
+                type: 类型
+            action:
+                update: 更新
+                delete: 删除
+                schedule_sync: 安排同步
+                activate: 开启
+                deactivate: 关闭
+
+        controller:
+            integration:
+                message:
+                    saved: 集成已保存
+                    activated: 集成已开启
+                    deactivated: 集成已关闭
+
+        integration:
+            entity_label:        集成
+            entity_plural_label: 集成
+            entity_description:  集成描述
+            id.label:         Id
+            type.label:       类型
+            transport.label:  传输类型
+            statuses.label:   状态
+            name.label:       名称
+            connectors.label: 连接器
+            synchronization_settings.label: 同步设定
+            is_two_way_sync_enabled.label: 启动双向同步
+            sync_priority.label: 同步优先级
+            sync_priority.tooltip: >
+                选择数据的本地版本或远程程序数据谁具有优先级，这样在从最近一次同步过
+                程后如果各自有了更新，确定以谁为准。
+            remote_wins.label: 远程版本优先
+            local_wins.label: 本地版本优先
+            default_user_owner.label: 默认属于
+            default_user_owner.description: >
+                选取此集成的持有者。从此集成导入所有数据实体都将赋予这个选中的用户。
+            default_business_unit_owner.label: 默认部门持有者
+            default_business_unit_owner.description: >
+                选取此集成的持有者。所有从此集成导入的数据实体都将赋予这个选中的部门。
+                父级部门也将被赋予。
+            organization.label: 组织
+            organization.description: >
+                选取此集成的组织
+            enabled:
+                label:           状态
+                active.label:    开启
+                inactive.label:  关闭
+        channel:
+            entity_label:                   集成
+            entity_plural_label:            集成
+            entity_description:             集成描述
+            id.label:                       Id
+            type.label:                     类型
+            transport.label:                传入类型
+            enabled.label:                  开启
+            mapping_settings.label:         映射设定
+            statuses.label:                 状态
+            name.label:                     名称
+            connectors.label:               连接器
+            synchronization_settings.label: 同步设定
+            organization.label:             组织
+            default_user_owner.label:       默认持有者
+            default_business_unit_owner.label: 默认持有部门
+            edit_mode.label:                编辑模式
+            previously_enabled.label:       以前开启的
+        integration_status:
+            competed.label:  已完成
+            failed.label:    失败
+            code.label:      状态
+            message.label:   信息
+            connector.label: 连接器
+
+        sync: 一个同步任务已经加入到队列{{ job_view_link }}
+        sync_error: '向队列添加同步任务失败。错误: %s.'
+        sync_error_integration_deactivated: '向队列添加同步任务失败。集成未开启。'
+        progress: 查看进度。
+        activate: 开启
+        deactivate: 关闭
+        button:
+            force_sync: 完全重新同步
+            sync: 安排同步
+
+        delete_sync_integration:
+            content: "警告：删除此集成将删除所有相关的数据"
+            success: 集成和所有相关的数据已被删除
+
+        form:
+            no_available_integrations: 没有集成
+
+        system_configuration:
+            groups:
+                integrations.title: 集成
+
+        notification:
+            channel:
+                activated: 集成开启成功
+                deactivated: 集成已成功关闭

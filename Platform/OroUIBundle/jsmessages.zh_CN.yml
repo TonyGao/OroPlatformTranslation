@@ -1,0 +1,97 @@
+"Yes": "是的"
+"Yes, Delete": "是的，删除"
+"Yes, I Agree": "是的，我同意"
+"Yes, do it": "是的，做吧"
+"No": "不"
+"OK, got it.": "好的，知道了。"
+"Cancel": "退出"
+"Delete Confirmation": "删除确认"
+"Edit": "编辑"
+"Loading...": "正在加载..."
+"Saving...": "正在保存..."
+"Deleting...": "正在删除..."
+"Unexpected error occurred. Please contact system administrator.": "发生意外错误。请联系系统管理员。"
+Now: 现在
+Prev: 之前
+Next: 之后
+Today: 今天
+Wk: 周
+Done: 完成
+Close: 关闭
+AM: AM
+A: 上午
+PM: PM
+P: 下午
+"Choose Time": "选择时间"
+Time: 时间
+Hour: 小时
+Minute: 分钟
+Second: 秒
+Millisecond: 微妙
+Microsecond: 毫秒
+"Time Zone": "时间区域"
+"Server error": "服务器错误"
+"User input error": "用户输入错误"
+"Error! Incorrect server response.": "错误! 服务器响应不正确。"
+"Sorry, unexpected error was occurred": "报错，发生意外错误。"
+"Please select a file...": "请选择一个文件..."
+"Attach file:": "附加文件:"
+"Upload": "上传"
+"Choose File": "选择文件"
+"Searching...": "搜索..."
+"No matches found": "找不到匹配项"
+"Loading more results...": "加载更多结果..."
+OK: 好的
+"N/A": "空"
+maximize: 最大
+restore: 恢复
+minimize: 最小
+close: 关闭
+Save: 保存
+Discard: 丢弃
+"Copy to Clipboard": "复制到粘贴板"
+oro:
+    ui:
+        delete_confirm_cascade: 你确定想要删除这个与其他数据实体相关的实体{{ entity_label }}吗？
+        widget_loading_failed: "组件内容加载失败"
+        forbidden_error: 您没有执行此操作的权限。
+        unexpected_error: 发生意外错误。请联系系统管理员。
+        item_add_error: 添加子项失败。
+        item_delete_error: 删除子项失败。
+        leave_page_with_unsaved_data_confirm: '您有尚未储存的变更，确定要离开这个网页吗？'
+        leave_page_save_data_or_discard_title: "导航确认"
+        leave_page_save_data_or_discard: "您有未储存的变更。您要在离开页面之前保存它们吗？"
+        page_header:
+            button:
+                more: "更多"
+        datepicker:
+            today: 今天
+            prev: 之前
+            next: 之后
+            close: 关闭
+            wk: 周
+        timepicker:
+            am: am
+            pm: pm
+            AM: AM
+            PM: PM
+            mins: 分钟
+            hr: 小时
+            hrs: 小时
+        components:
+            initialization_error: '布局更新期间发生错误。请联系系统管理员。'
+        unload_message:
+            single: 变更正在保存，可能会丢失
+            group_title: 正在更新服务器，并且可能会丢失以下更改
+            other: 其他
+        jstree:
+            move_node_error: "你不能在此移动节点{{ nodeText }}。"
+        select2:
+            input_too_short: "{1}请输入{{ number }}个字符|[2,Inf[请输入{{ number }}个字符"
+            input_too_long: "{1}请删除{{ number }}个字符|[2,Inf[请删除{{ number }}个字符"
+            selection_too_big: "{1}你只能选择{{ limit }}个子项|[2,Inf[你只能选择{{ limit }}个子项"
+            load_more: "加载更多结果..."
+articles: "a|an|the|some|every|any|no"
+abbreviate_ignore_list: "a|an|the|of|at|per|in|on"
+postpositions: "ago|apart|aside|away|hence|through"
+prepositions:  "a|an|per|aboard|about|bout|above|abreast|abroad|across|after|against|again|along|amid|among|around|as|astride|at|atop|ontop|bar|before|afore|tofore|B4|behind|ahind|below|ablow|beneath|beside|besides|between|beyond|but|by|come|despite|spite|down|during|except|for|4|from|in|inside|into|less|like|minus|near|of|off|on|onto|opposite|out|outside|over|past|per|post|pre|pro|re|short|since|than|through|thru|throughout|thruout|to|2|@|the|toward|towards|under|underneath|unlike|until|til|till|up|upon|upside|versus|via|vice|with|within|without|worth"

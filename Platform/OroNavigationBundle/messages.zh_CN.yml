@@ -1,0 +1,24 @@
+oro:
+    navigation:
+        help:
+            title: 怎么使用固定栏
+            message: 使用页面右上角的图钉图标在pinbar中创建快速访问链接。
+        menu:
+            pinbar.label: 固定栏
+            history.label: 历史
+            favorite.label: 收藏
+            mostviewed.label: 经常查看
+        messages:
+            no_items: 你还没有子项
+        shortcuts:
+            title: 快捷键
+            example: "示例: 创建用户，用户列表"
+            see_all: 查看全部列表
+            most_used: 最常用的操作
+            placeholder: 输入快捷键
+        favorites:
+            button: 收藏
+            button.title: 收藏/取消收藏页面
+        pins:
+            button: 最小化
+            button.title: 固定/取消固定页面

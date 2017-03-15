@@ -1,0 +1,38 @@
+oro.imap:
+    system_configuration:
+        groups:
+            google_imap_settings.title: 用于电子邮件同步的OAuth 2.0
+        fields:
+            enable_google_imap:
+                label: 开启
+                tooltip: '请确保在<a href="https://console.developers.google.com/apis/api/gmail/overview/" target="_blank"> Google Developers Console </a>中启用了Gmail API。'
+                error.label: 授权期间出错
+                success.label: 授权是成功的
+                warning.label: 如果您停用此选项，则使用Gmail OAuth 2.0配置的所有用户的邮箱将无法同步。
+
+    configuration:
+        account_type:
+            label: 账户类型
+            selectType: 未选取
+            gmail: Gmail
+            other: 其他
+        imap_host.label: IMAP 主机
+        imap_port.label: IMAP 接口
+        imap_encryption.label: 加密
+        smtp_host.label: SMTP 主机
+        smtp_port.label: SMTP 接口
+        smtp_encryption.label: 加密
+        use_imap:
+            label: 开启 IMAP
+            tooltip: 启用与您的邮箱的imap同步以在OroCRM上接收电子邮件。如果您不知道您的imap凭证，请与您的管理员联系。
+        use_smtp:
+            label: 开启 SMTP
+            tooltip: 启用smtp同步以将从OroCRM发送到您的邮箱的电子邮件同步，以便您可以在其他电子邮件客户端中看到它们。
+        user.label: 用户
+        password.label: 密码
+        connect: 连接
+        connect_and_retrieve_folders: 检查连接/恢复文件夹
+        tooltip: 如果值被更改，则将注册新的邮箱。此邮箱中的所有数据都将丢失
+        reset_email.label: 关联账户
+        disconnect.label: 断开
+

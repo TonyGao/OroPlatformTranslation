@@ -1,0 +1,118 @@
+"Delete": "删除"
+"Save": "保存"
+"Save and Close": "保存并关闭"
+"Save and New": "保存并创建"
+"Cancel": "退出"
+"Edit": "编辑"
+"Refresh": "刷新"
+"Reset": "重置"
+"Continue": "继续"
+"Go": "执行"
+"Search": "搜索"
+"Search results": "搜索结果"
+"View more...": "查看更多..."
+"All": "全部"
+"Any": "任意"
+"Expand All": "展开全部"
+"Collapse All": "缩起全部"
+"Ascending Order": "升序 - 点击以降序排序"
+"Descending Order": "降序 - 点击可按升序排序"
+"N/A": "空"
+"Loading...": "正在加载..."
+"Saving...": "正在保存..."
+"Deleting...": "正在删除..."
+oro.age: "{0} 新生儿|]0,Inf[年龄%count%"
+"Get help": "获取帮助"
+"Communications": "沟通"
+"Additional Information": "额外信息"
+
+oro:
+    ui:
+        actions:          %entityName% 操作
+        actions.activity: 更多操作
+        create:         创建
+        create_entity:  创建%entityName%
+        update_entity:  更新%entityName%
+        convert_entity: 转换%name%为%entityName%
+        created_at:     创建时间
+        delete:         删除
+        delete_confirm: 你确定想要删除这个%entity_label%?
+        delete_confirm_cascade: 你确定你想要删除这个相关其他数据实体的数据实体%entity_label%吗？
+        delete_entity:  删除%entityName%
+        delete_message: %entity_label%已经删除
+        edit:           编辑
+        edit_entity:    编辑%entityName%
+        view:           查看
+        view_entity:    查看%entityName%
+        empty:          空
+        item:           子项
+        owner:          属于
+        updated_at:     变更时间
+        system_configuration:
+            groups:
+                navbar_settings.title: '导航栏'
+                application_settings.title: '程序设定'
+                application_name_settings.title: '网址'
+            fields:
+                application_url.label: '程序网址'
+                navbar_position:
+                    label: '位置'
+                    choices:
+                        top: '上边'
+                        left: '左边'
+        http_codes:
+            226: '使用中'
+            300: '多重选择'
+            301: '永久转移'
+            302: '找到'
+            303: '参见其他'
+            304: '未修改'
+            305: '使用代理'
+            306: '保留'
+            307: '临时重定向'
+            308: '永久重定向'
+            400: '错误的请求'
+            401: '未经授权'
+            402: '需要付款'
+            403: '禁止'
+            404: '未找到'
+            405: '方法不允许'
+            406: '不能接受'
+            407: '需要代理验证'
+            408: '请求超时'
+            409: '冲突'
+            410: '遗失'
+            411: 'Length Required'
+            412: 'Precondition Failed'
+            413: 'Request Entity Too Large'
+            414: 'Request-URI Too Long'
+            415: 'Unsupported Media Type'
+            416: 'Requested Range Not Satisfiable'
+            417: 'Expectation Failed'
+            418: "I'm a teapot"
+            422: 'Unprocessable Entity'
+            423: 'Locked'
+            424: 'Failed Dependency'
+            425: 'Reserved for WebDAV advanced collections expired proposal'
+            426: 'Upgrade Required'
+            428: 'Precondition Required'
+            429: 'Too Many Requests'
+            431: 'Request Header Fields Too Large'
+            500: 'Internal Server Error'
+            501: 'Not Implemented'
+            502: 'Bad Gateway'
+            503: 'Service Unavailable'
+            504: 'Gateway Timeout'
+            505: 'HTTP Version Not Supported'
+            506: 'Variant Also Negotiates (Experimental)'
+            507: 'Insufficient Storage'
+            508: 'Loop Detected'
+            510: 'Not Extended'
+            511: 'Network Authentication Required'
+        http_error_messages:
+            404: 'The page you requested could not be found. Please make sure the path you used is correct.'
+            403: "You don't have permission to access this page."
+            maintenance: '系统当前正在进行维护，并且应该在几分钟内可用。'
+        filter:
+            by: Filter By
+'Click to go back': 'Click to go back'

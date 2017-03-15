@@ -1,0 +1,238 @@
+oro:
+    dashboard:
+        calendar:
+            new_event: 新事件
+            view_calendar: 我的日程
+
+    calendar:
+        my_calendar:                我的日程
+        my_calendar_widget_title:   今天的日程
+        my_calendar_widget_description: 这个组件为今天显示日程。
+        add_event:                  添加事件
+        add_event.title:            添加一个事件到这条记录
+        assign_event:               赋予事件
+        assign_event.title:         赋予此用户一个事件
+        assign_event.widget_title:  赋予事件给%username%
+        delete_event.title:         删除事件
+        delete_event.confirmation:  你确定要删除这个事件吗？
+        print: Print
+        view_events:                事件
+        add_to_calendar:            添加到%name%
+        organization_calendar:      组织日程
+        view:                       查看事件
+
+        action:
+            public_calendar_management:
+                label: 管理系统日程
+                description: 如果设定为 None，用户将可以看到系统日程，但不能创建、编辑、删除它们。
+            public_calendar_event_management:
+                label: 管理系统日程事件
+                description: 如果设定为 None，用户将可以看到系统日程的事件，但不能创建、编辑、删除它们。
+            system_calendar_event_management:
+                label: 管理组织的日程事件
+                description: 如果设定为 None，用户将可以看到组织的日程，但不能创建、编辑、删除它们。
+
+        system_configuration:
+            groups:
+                calendar_settings.title:  日程设定
+            fields:
+                calendar_colors.label:    日程颜色
+                event_colors.label:       事件颜色
+
+        controller:
+            event.saved.message:          日程事件已保存
+            systemcalendar.saved.message: 日程已保存
+
+        form:
+            choose_user_to_add_calendar: "选择添加一个用户..."
+
+        menu:
+            view_default: 我的日程
+
+        context:
+            remove: 删除日程
+            hide: 隐藏日程
+            show: 显示日程
+            edit_color: 编辑颜色...
+
+        control:
+            all_day: ""
+            today:   今天
+            month:   月
+            week:    周
+            day:     日
+
+        reminder_template:
+            due_message: 开始于
+
+        #
+        # Oro/Bundle/CalendarBundle/Entity/Calendar
+        #
+        entity_label:        日程
+        entity_plural_label: 日程
+        entity_description:  用户日程描述
+        id.label:            Id
+        name.label:          名称
+        events.label:        事件
+        owner.label:         属于
+        organization.label:  组织
+
+        #
+        # Oro/Bundle/CalendarBundle/Entity/SystemCalendar
+        #
+        systemcalendar:
+            entity_label:         系统日程
+            entity_plural_label:  系统日程
+            entity_description:   系统日程描述
+            id.label:             Id
+            name.label:           日程名称
+            public.label:         范围
+            events.label:         事件
+            organization.label:   组织
+            background_color.label: 颜色
+            extend_description.label: 描述
+
+            scope.system:         系统
+            scope.organization:   组织
+            no_color:             自动分配
+
+        #
+        # Oro/Bundle/CalendarBundle/Entity/CalendarEvent
+        #
+        calendarevent:
+            entity_label:         日程事件
+            entity_plural_label:  日程事件
+            entity_description:   日程事件描述
+            id.label:             Id
+            title.label:          标题
+            description.label:    描述
+            start.label:          开始
+            end.label:            结束
+            calendar.label:       日程
+            all_day.label:        全天事件
+            child_events.label:   子事件
+            parent.label:         父级
+            background_color.label:  颜色
+            system_calendar.label:   系统日程
+            invitation.label:        被邀请人
+            invitation_status.label: 邀请状态
+            attendees.label: 被邀请人
+            related_attendee.label: 相关出席者
+
+            recurrence.label:      重复
+            recurrence.exception.label: 重复部分
+            recurrence.alias.recurrent: 重复
+            recurrence.na: 不可用
+            recurring_event_exceptions.label: 重复事件例外
+            recurring_event.label: 重复事件
+            original_start.label: 原始开端
+            cancelled.label: 被取消
+
+            no_color:             使用日程颜色
+            updated_by:           由{{ user }}添加, 由{{ editor }}变更
+            added_by:             由{{ user }}添加
+            update_event:         更新{{ entity }}
+            delete_event:         删除{{ entity }}
+
+            statuses:
+                none:                 没有响应
+                tentative:            暂时接受
+                accepted:             接受
+                declined:             拒绝
+
+            actions:
+                tentative:            暂时接受
+                accepted:             接受
+                declined:             拒绝
+
+        #
+        # Oro/Bundle/CalendarBundle/Entity/CalendarProperty
+        #
+        calendarproperty:
+            entity_label:           日程属性
+            entity_plural_label:    日程属性
+            entity_description:     为一个日程描述不同类型的用户属性
+            id.label:               Id
+            target_calendar.label:  目标日程
+            calendar_alias.label:   日程别名
+            calendar.label:         日程 Id
+            position.label:         位置
+            visible.label:          可见性
+            color.label:            颜色
+            background_color.label: 背景颜色
+
+        attendee:
+            entity_label: 出席者
+            entity_plural_label: 被邀请人
+            calendar_event.label: 日程事件
+            display_name.label: 显示名称
+            email.label: 邮箱
+            id.label: Id
+            user.label: 用户
+            organization.label: 组织
+            owner.label: 属于
+            status.label: 状态
+            type.label: 类型
+            type:
+                organizer.label: 组织者
+                optional.label: 选项
+                required.label: 需求资源
+
+        autocomplete:
+            attendees: 日程事件被邀请人
+
+        #
+        # Oro/Bundle/CalendarBundle/Entity/Recurrence
+        #
+        recurrence:
+            entity_label:           重复
+            entity_plural_label:    重复
+            type.label:             重复类型
+            interval.label:         间隔
+            instance.label:         情况
+            day_of_week.label:      每周
+            day_of_month.label:     每月
+            month_of_year.label:    每年
+            start_time.label:       开始时间
+            end_time.label:         结束时间
+            occurrences.label:      发生
+            timezone.label:         时区
+
+            patterns:
+                occurrences: "{1} , end after 1 occurrence|]1,Inf[ , end after %count% occurrences"
+                end_date: ", 结束于 %date%"
+                timezone: '(%timezone% GMT%timezone_offset%)'
+                daily: "{1} Daily every 1 day%occurrences%%end_date%%timezone_info%|]1,Inf[ Daily every %count% days%occurrences%%end_date%%timezone_info%"
+                weekly: "{1} Weekly every 1 week on %days%%occurrences%%end_date%%timezone_info%|]1,Inf[ Weekly every %count% weeks on %days%%occurrences%%end_date%%timezone_info%"
+                monthly: "{1} Monthly day %day% of every 1 month%occurrences%%end_date%%timezone_info%|]1,Inf[ Monthly day %day% of every %count% months%occurrences%%end_date%%timezone_info%"
+                monthnth: "{1} Monthly the %instance% %day% of every 1 month%occurrences%%end_date%%timezone_info%|]1,Inf[ Monthly the %instance% %day% of every %count% months%occurrences%%end_date%%timezone_info%"
+                yearly: "{1} Yearly every 1 year on %day%%occurrences%%end_date%%timezone_info%|]1,Inf[ Yearly every %count% years on %day%%occurrences%%end_date%%timezone_info%"
+                yearnth: "{1} Yearly every 1 year on the %instance% %day% of %month%%occurrences%%end_date%%timezone_info%|]1,Inf[ Yearly every %count% years on the %instance% %day% of %month%%occurrences%%end_date%%timezone_info%"
+                weekday: "Daily, every weekday%occurrences%%end_date%%timezone_info%"
+
+            types:
+                daily:              每天
+                weekly:             每周
+                monthly:            每月
+                monthnth:           月度
+                yearly:             每年
+                yearnth:            年度
+
+            instances:
+                first:              第一个
+                second:             第二个
+                third:              第三个
+                fourth:             第四个
+                last:               最后
+
+            days:
+                sunday:             周日
+                monday:             周一
+                tuesday:            周二
+                wednesday:          周三
+                thursday:           周四
+                friday:             周五
+                saturday:           周六
+                weekday:            工作日
+                weekend:            周末
+                day:                白天

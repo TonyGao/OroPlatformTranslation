@@ -1,0 +1,3 @@
+"The template for {{ field }} ({{ locale }}) has syntax error: {{ error }}": "来自{{ field }} ({{ locale }})的模板存在语法错误: {{ error }}"
+"This value contains not valid email address.": "这个值里包含了无效的邮箱地址。"
+"Recipient can not be empty": "收件人不能为空"

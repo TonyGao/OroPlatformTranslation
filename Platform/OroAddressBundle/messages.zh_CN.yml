@@ -1,0 +1,69 @@
+"Address manipulation": "地址维护"
+"View list of addresses": "查看地址列表"
+"View address": "查看地址"
+"Edit address": "编辑地址"
+"Create address": "创建地址"
+"Remove address": "删除地址"
+
+oro:
+    address:
+        city.label:          城市
+        country.label:       国家
+        entity_description:  地址描述
+        entity_label:        地址
+        entity_plural_label: 地址
+        first_name.label:    姓
+        id.label:            Id
+        label.label:         标签
+        last_name.label:     名
+        middle_name.label:   中间名
+        name_prefix.label:   称呼前缀
+        name_suffix.label:   称呼后缀
+        organization.label:  组织
+        postal_code.label:   邮政编码
+        region.label:        省
+        region_text.label:   省
+        street.label:        街道
+        street2.label:       街道 2
+
+        country_name.label:      国家名称
+        country_iso2_code.label: 国家 ISO2 代码
+        country_iso3_code.label: 国家 ISO3 代码
+        region_name.label:       省名
+        region_code.label:       省 ISO 代码
+
+        form:
+            choose_country: "选择一个国家..."
+            choose_region:  "选择一个省..."
+
+        region:
+            entity_label:        省
+            entity_plural_label: 省
+            entity_description:  地址的区域描述
+            name.label:          名称
+            country.label:       国家
+            combined_code.label: 结合的代码
+            code.label:          代码
+
+            country_name.label:      国家名称
+            country_iso2_code.label: 国家 ISO2 代码
+            country_iso3_code.label: 国家 ISO3 代码
+
+        country:
+            entity_label:         国家
+            entity_plural_label:  国家
+            entity_description:   地址的国家描述
+            regions.label:        省
+            name.label:           名称
+            iso3_code.label:      ISO3 代码
+            iso2_code.label:      ISO2 代码
+        addresstype:
+            entity_label:         地址类型
+            entity_plural_label:  地址类型
+            entity_description:   地址类型描述
+            name.label:           名称
+            label.label:          标签
+        action:
+            read_dictionaries:
+                label: "进入地址下拉框"
+                description: "在地址表单查看国家、街道等的下拉菜单"

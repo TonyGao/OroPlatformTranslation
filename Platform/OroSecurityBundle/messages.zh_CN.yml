@@ -1,0 +1,27 @@
+(default): 数据实体的默认权限
+VIEW: 查看
+CREATE: 创建
+EDIT: 编辑
+DELETE: 删除
+ASSIGN: 赋予
+"view %entityName%": "查看%entityName%"
+"view %fieldName% not granted": "你没有权限查看%fieldName%"
+oro:
+    security:
+        access-level:
+            BASIC: 用户
+            LOCAL: 部门
+            DEEP: 区域
+            GLOBAL: 全局
+            SYSTEM: 全局
+            NONE: 无
+        organization:
+            access_denied: 你无权访问组织"%organization_name%"
+        permissions: 操作权限
+        field_acl:
+            is_enabled:
+                label:   字段登记ACL
+                tooltip: 启动数据实体的字段登记访问检查
+            show_restricted_fields:
+                label:   显示受限
+                tooltip: 如果启用字段级ACL并且用户无权访问字段，在创建和编辑页面上，此字段将显示为禁用字段。

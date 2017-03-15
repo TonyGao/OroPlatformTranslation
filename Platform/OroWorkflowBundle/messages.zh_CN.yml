@@ -1,0 +1,249 @@
+"No workflow items are available": "没有工作流子项可用"
+"Disabled": "禁用"
+"Active": "开启"
+"Current Step": "当前节点"
+"Status": "状态"
+"Workflow Name": "工作流名称"
+"Current Step": "当前节点"
+"Start Date": "开始日期"
+"Are you sure you want to delete this workflow item?": "你确定想要删除这个工作流子项？"
+"Delete workflow item": "删除工作流子项"
+"Actions": "操作"
+"Step information saved": "节点信息已保存"
+Update: 更新
+New: 创建
+Save: 保存
+'Transition name': '流转名称'
+From step: 从节点
+To step: 至节点
+Warning message: 警告信息
+Button: 按钮
+Button style: 按钮样式
+Button preview: 按钮预览
+Attributes: 属性
+View form: 查看表单
+Popup window: 弹出窗口
+Separate page: 分隔页面
+Cancel: 退出
+OK: 好的
+This value should be {{ limit }} or more.: 此值应该为{{ limit }}或更多。
+This value should be {{ limit }} or less.: 此值应该为{{ limit }}或更少。
+This value should be a valid number.: 此值应该是一个有效数字。
+Name: 名称
+Final: 最后
+Start: 开始
+Inactive: 关闭
+Configuration: 配置
+Transitions: 流转
+Add transition: 添加流转
+Add transition to this step: 添加流转到这个节点
+Step: 节点
+Position: 位置
+Update this step: 更新这个节点
+Clone this step: 复制这个节点
+Delete this step: 删除这个节点
+Entity field: 数据实体字段
+Label: 标签
+Leave empty for system value: 对系统值置空
+Required: 需要
+Add: 添加
+Reset: 重置
+Apply: 应用
+Info: 信息
+System: 系统
+Yes: 是
+No: 否
+Update field: 更新字段
+Delete field: 删除字段
+Update this transition: 更新这个流转
+Clone this transition: 复制这个流转
+Delete this transition: 删除这个流转
+General: 一般
+Add step: 添加节点
+Auto sort: 自动排序
+Designer: 设计师
+Workflow steps and transitions: 工作流节点和流转
+Unmet conditions: 未满足条件
+Submit: 提交
+General Information: 一般信息
+Create Workflow: 创建工作流
+Workflow activated: 工作流已开启
+Workflow deactivated: 工作流已关闭
+There are no transitions yet.: 还没有流转。
+Reset workflow data: 重置工作流数据
+Show Transition Labels: 显示流转标签
+
+oro:
+    workflow:
+        action:
+            process:
+                activate:   开启
+                deactivate: 关闭
+
+            workflow:
+                general:
+                    label: 执行工作流流转
+                    description: 向用户显示工作流流转按钮，并允许用户操作工作流程
+                reset_data: 重置工作流数据
+
+        block:
+            title:
+                process_info: 过程信息
+            view:
+                process:
+                    trigger:
+                        description: %when%之后的%after%已经%event%
+                        when:
+                            immediately: 立即
+                        after:
+                            property: 属性
+                            entity:   数据实体
+                        event:
+                            create:  已创建
+                            delete:  已删除
+                            update:  已更新
+                        cron.description: 'Cron表达: {{ cron }}'
+                workflow:
+                    default_step: 默认节点
+
+        entity_config:
+            active_workflow:
+                label: '开启工作流'
+                none:  '无'
+
+            show_step_in_grid.choice:
+                hide: '隐藏'
+                show: '显示'
+
+            show_step_in_grid.label: '数据列表里的工作流节点'
+
+        menu:
+            process_definition_list.description:  进程管理界面
+            workflow_definition_list.description: 工作流管理界面
+
+        notification:
+            process:
+                activated:   进程已成功激活
+                deactivated: 进程已成功关闭
+
+        processdefinition:
+            entity_label:                 进程
+            entity_plural_label:          进程
+            actions_configuration.label:  操作配置
+            enabled.label:                开启
+            execution_order.label:        执行顺序
+            name.label:                   代码
+            label.label:                  名称
+            related_entity.label:         相关数据实体
+            datagrid.view:                查看
+            exclude_definitions.label:    排除定义
+            pre_conditions_configuration.label: 预调件配置
+
+        processtrigger:
+            entity_label:         进程触发器
+            entity_plural_label:  进程触发器
+            id.label:             ID
+            definition.label:     进程定义
+            event.label:          事件
+            field.label:          字段
+            priority.label:       优先级
+            queued.label:         队列化
+            time_shift.label:     时间偏移
+            cron.label:           Cron表达
+
+        transition:
+            start: "开始%workflow%"
+
+        workflowdefinition:
+            entity_label:                 工作流
+            entity_plural_label:          工作流
+            label.label:                  名称 # 这个翻译被选中，因为它不会混淆用户
+            system.label:                 系统
+            configuration.label:          配置
+            entity_acls.label:            数据实体ACL
+            entity_attribute_name.label:  数据实体属性名称
+            name.label:                   代码 # 这个翻译被选中，因为它不会混淆用户
+            name.description:             "此工作流的名称"
+            related_entity.label:         相关数据实体
+            related_entity.description:   "相关数据实体是为其创建工作流的数据实体。当工作流处于开启状态时，可以在其相关数据实体的记录上启动和执行。"
+            start_step.label:             默认节点
+            start_step.tooltip:          "当指定默认节点时，所有新创建的相关数据实体的记录都将具有与其相关的工作流；并且此工作流处于默认节点。如果没选择节点，所有新创建的记录将没有与它们相关联的工作流，并且它必须以一个开始的流转来启动。"
+            steps.label:                  节点
+            steps_display_ordered.label:  显示已排序节点
+            steps_display_ordered.description: "选中此框时，所有工作流节点都将显示在相关数据实体的显示页面上，所以可以看到整个进程路径。否则，将只显示工作流程的当前节点和过去节点。 <br/><strong>注意:</strong> 我们建议不要为有两个或多个相同优先级的节点的工作流选中此框，以避免混淆。"
+            active.label:                 启动
+
+            attribute:
+                property_path.tooltip:    "这是将出现在流转视图表单上的工作流数据实体或相关数据实体的字段。如果你希望用户在流转中添加或编辑某些数据实体数据，请使用这些。"
+                label.tooltip:            "如果你想在流转视图表单上重新标记此数据实体字段，请使用此选项。如果将此字段置空，将用一个系统值作为标签。"
+                required.tooltip:         "如果要求用户向此数据实体添加一些信息，请选中此框。请注意，请注意，此要求仅适用于流转的表单视图，对数据实体属性没有影响。"
+
+            transition:
+                name.tooltip:             "将在其按钮上显示流转的名称。"
+                step_from.tooltip:        "对于此工作流节点，此流转按钮应该显示在其数据实体页面上。"
+                step_to.tooltip:          "在流转被执行后工作流将会进行到的节点。"
+                display_type.tooltip:     "流转属性可以是两种可得形式之一：在弹窗里，这是适用于大多数情况的默认流转行为，或者在单独的页面上，其应该谨慎的使用并且仅用于属性“较重”的流转。"
+                message.tooltip:          "如果要在执行流转之前向用户显示警告弹出消息，请将警告文本放入此字段。"
+                icon.tooltip:             "将显示在流转名称之前的流转按钮上的图标。"
+                button_color.tooltip:     "这个控制特定流转按钮的视觉样式。"
+                button_preview.tooltip:   "这是将显示在数据实体页面上的流转按钮的实时预览。"
+
+            step:
+                name.tooltip:             "将显示在数据实体记录上的节点名称。"
+                order.tooltip:            "用于确定工作流中节点位置的数字。数字越大，此节点至开始越远"
+                is_final.tooltip:         '此选项将节点标记为逻辑“结束”或工作流的结果。这是一个纯逻辑属性，需要区分这些节点以绘制漏斗图或创建关于工作流数据的报表。将节点标记为final对流程本身没有影响。'
+
+            datagrid:
+                view: 查看
+                update: 编辑
+                delete: 删除
+                activate: 开启
+                deactivate: 关闭
+
+        workflowitem:
+            entity_label:             工作流子项
+            entity_plural_label:      工作流子项
+            entity_description:       工作流子项描述
+            id.label:                 ID
+            acl_identities.label:     ACL标识
+            current_step.label:       当前节点
+            definition.label:         工作流定义
+            entity_id.label:          数据实体标识
+            serialized_data.label:    序列化数据
+            transition_records.label: 流转记录
+            workflow_name.label:      工作流名称
+
+            related_entity.label:       工作流子项
+            related_entity.description: 工作流子项的相关字段
+
+        workflowstep:
+            entity_label:         工作流节点
+            entity_plural_label:  工作流节点
+            entity_description:   工作流节点描述
+            id.label:             ID
+            definition.label:     工作流定义
+            final.label:          是最终的
+            label.label:          名称 # 这个翻译被选中，因为它不会混淆用户
+            name.label:           代码 # 这个翻译被选中，因为它不会混淆用户
+            step_order.label:     节点顺序
+
+            related_entity.label:       工作流节点
+            related_entity.description: 工作流节点的相关字段
+            grid.label:                 节点
+
+        form:
+            name.label: 名称
+            from_step.label: 从节点
+            to_step.label: 到节点
+            view_form.label: 查看表单
+            warning_message.label: 警告信息
+            button_icon.label: 按钮图标
+            button_style.label: 按钮样式
+            button_preview.label: 按钮预览
+            entity_field.label: 数据实体字段
+            label.label: 标签
+            required.label: 需要
+            name.label: 名称
+            position.label: 位置
+            final.label: 最终
+

@@ -1,0 +1,55 @@
+oro:
+    distribution:
+        package:
+            package: 软件包
+            name: 包名称
+            type: 类型
+            license: 协议
+            author: 作者
+            version: 版本
+            current_version: '当前版本'
+            latest_version: '最新版本'
+            installed: '已安装软件包'
+            available: '可得软件包'
+            nothing_installed: '什么也没安装'
+            nothing_to_update: '什么也没更新'
+            list_of_updates: '可得更新列表'
+            installed_version: '已安装版本'
+            up_to_date_version: '更新到最新版'
+            install_new: '安装新的软件包'
+            unknown: 未知
+        action:
+            install: 安装
+            update: 更新
+            delete: 删除
+            save: 保存
+        menu:
+            get_help: 获取帮助
+            sign_out: 注销
+            composer_settings: 'Composer 设定'
+        security:
+            login: 登录
+            username: 用户名
+            password: 密码
+            username_or_email: '用户名或邮箱'
+            remember_me: '记住密码'
+            log_in: '登录'
+        messages:
+            settings_saved: '设定已被保存。'
+            unexpected_error: '下列发生了未知错误'
+            not_writable: '下列目录/文件需要可被网站用户写入'
+            enter_package_name: '请输入包名称'
+            ajax_error: 'Ajax错误'
+            ajax_500error: '不能{{ action }}软件包。请检查网页服务器内存限定或超时选项。'
+            perform_the_action_to: '执行操作到'
+        settings:
+            repositories: 软件包仓库
+            add_repository: '添加一个包仓库'
+            recommendation: |
+                要增加安装额外软件包成功的几率我们建议将网页服务器的超时限定设定为5分钟或更多，
+                 并PHP配置文件里设定<a class="alert-link" target="_blank" href="http://php.net/manual/en/info.configuration.php#ini.max-execution-time" class="alert-link">max_execution_time</a> 为5分钟或更多，
+                 并且设定<a class="alert-link" target="_blank" href="http://php.net/manual/en/ini.core.php#ini.memory-limit" class="alert-link">memory_limit</a>为1024M或更多。
+        installer: '奥诺安装器'
+
+'ORO Business Application Platform': '奥诺商业程序平台'
+'Back to Installed Packages': '回到已安装的软件包'

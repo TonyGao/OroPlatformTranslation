@@ -1,0 +1,10 @@
+oro:
+    workflow:
+        validator:
+            entity:
+                message:
+                    update: 由于工作流程限制，无法编辑数据实体。
+            field:
+                message:
+                    create: 由于工作流程限制，无法使用此值创建数据实体。
+                    update: 由于工作流程限制，无法编辑字段。

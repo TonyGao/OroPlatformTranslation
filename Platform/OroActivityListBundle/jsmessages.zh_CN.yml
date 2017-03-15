@@ -1,0 +1,25 @@
+oro:
+    activitylist:
+        edit_title:   更新营销活动子项
+        delete_title: 删除营销活动子项
+
+        item_saved:   营销活动子项已保存
+        item_removed: 营销活动子项已删除
+
+        delete_confirmation: 你确定想要删除这条营销活动子项吗？
+        delete_error:        抱歉，这条营销活动子项删除失败。
+
+        load_error:      抱歉，营销活动列表没有正确加载。
+        forbidden_error: 你没有权限执行这个操作。
+        forbidden_activity_data_view_error: 你没有权限查看这条营销活动记录的数据。
+        widget:
+            filter:
+                date_picker.title: 日期范围
+                activity.title: 营销活动类型
+        comment:
+            quantity_label: 备注数量
+        created_at.label: 创建时间
+        updated_at.label: 更新时间
+    activityCondition:
+        hasActivity: 有营销活动
+        hasNotActivity: 没有营销活动

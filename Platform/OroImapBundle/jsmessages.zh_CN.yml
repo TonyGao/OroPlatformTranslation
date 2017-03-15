@@ -1,0 +1,17 @@
+oro.imap:
+    connection:
+        success:     连接已成功建立!
+        error:       参数无效!
+        imap:
+            success: 已成功建立IMAP连接
+            error:   无法建立IMAP连接
+        smtp:
+            success: SMTP连接已成功建立
+            error:   无法建立SMTP连接
+        google.oauth:
+            error:
+                emptyClientId: Google 交互设置中的参数客户端ID为空。您需要在配置中配置google设置。
+                access_deny: 访问拒绝
+                request: 出现问题了。
+                closed_auth: 出现问题了。请与您的管理员联系，以查看Google API密钥设置。
+                blocked_popup: 出问题了。请确保启用弹出式窗口。

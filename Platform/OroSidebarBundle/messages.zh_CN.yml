@@ -1,0 +1,7 @@
+oro.sidebar:
+    system_configuration:
+        groups:
+            sidebar_settings.title: '侧边栏设定'
+        fields:
+            sidebar_left_active.label: '开启左边栏'
+            sidebar_right_active.label: '开启右边栏'

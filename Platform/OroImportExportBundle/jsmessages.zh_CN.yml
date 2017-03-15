@@ -1,0 +1,6 @@
+"Export started, please wait...": "导出已开始，请稍等..."
+"Export performed successfully, {{ count }} entities were exported.": "执行导出成功，{{ count }}个数据实体被导出。"
+"Export operation fails, {{ count }} error(s) found.": "导出操作失败， 出现了{{ count }}个错误。"
+"Download error log": "下载错误日志"
+"Download result file": "下载结果文件"
+"No entities found for export.": "没发现有需要导出数据实体。"

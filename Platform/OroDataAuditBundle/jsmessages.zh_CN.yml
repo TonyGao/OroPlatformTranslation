@@ -1,0 +1,8 @@
+oro:
+    dataaudit:
+        data_audit_condition:
+            changed: 已被修改
+            changed_to_value: 已被修改为
+            in_the_interval: 以此时间为间隔
+            value: 值
+            value_that: 值

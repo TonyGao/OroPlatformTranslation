@@ -1,0 +1,16 @@
+oro:
+    comment:
+        entity_label: 备注
+        entity_plural_label: 备注
+        id.label: Id
+        message.label: 信息
+        organization.label: 组织
+        owner.label: 属于
+        updated_by.label: 更新于
+        attachment.label: 附件
+
+        message.placeholder: 输入你的备注...
+        enabled: 开启备注
+        quantity_label: 备注数量
+
+add_comment: 添加备注

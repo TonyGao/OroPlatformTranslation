@@ -1,0 +1,19 @@
+oro:
+    segment:
+        change_entity_confirmation: 更改数据实体将清除所有分割块的过滤器和字段。你想继续吗？
+        refresh_dialog:
+            title: 确认操作
+            content: 请确认您要刷新此分割块。
+            success: 已成功处理分割块。
+            error: 发生未识别的错误。请与您的管理员联系。
+            okText: 是的
+        confirm:
+            data_issue:
+                unsaved_changes: 未保存{{ components }}
+                invalid_data: 在{{ components }}有无效数据
+            dialog:
+                title: 数据将丢失
+                message: 你的数据{{ data_issue }}将丢失。仍要继续？
+        report_column_editor: 报表字段编辑器
+        grouping_editor: 分组编辑器
+

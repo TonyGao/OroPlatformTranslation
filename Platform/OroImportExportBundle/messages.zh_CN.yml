@@ -1,0 +1,43 @@
+oro:
+    importexport:
+        action:
+            export:  "导出数据实体记录"
+            import:  "导入数据实体记录"
+
+        export:
+            label: 导出
+            processor: 处理器
+
+        export_template:
+            label: 导出模板
+
+        entity_config:
+            block_title:    "导入和导出"
+            excluded.label: "排除字段"
+            full.label:     "导出字段"
+            full.tooltip:   "所有涉及此数据实体的字段都将被导出。"
+            header.label:   "字段名称"
+            header.tooltip: "如果使用空白标签"
+            identity.label: "用作标识字段"
+            identity.only_when_not_empty: "只有当不为空时"
+            identity.always: "一直"
+            identity.tooltip: "如果设定为 \"只有当不为空时\", 当该字段没有值时会在标识中忽略它。"
+            order.label:    "字段位置"
+
+        import:
+            error:          "导入文件时发生错误。"
+            errors_found:   "发生错误: %errors%"
+            error %number%: "错误所在行 #%number%."
+            label:          导入
+            success:        "导入文件成功。"
+            alert:          数据实体"%added%被加入, 数据实体%updated%被更新"
+            entity:         导入%entityName%
+            tempate:        下载数据模板
+            file:           文件
+            strategy:       策略
+            importance:     重要
+            columns_notice: 该文件必须以逗号分隔。包含其他分隔符的文件将被拒绝。
+            errors:
+                not_found_entity: 没找到数据实体"%entity_name%"
+
+"Identity only": "仅标识"

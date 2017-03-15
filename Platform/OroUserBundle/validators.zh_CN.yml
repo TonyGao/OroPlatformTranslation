@@ -1,0 +1,7 @@
+You must select at least {{ limit }} role:  至少选取 {{ limit }} 个角色。|至少选取 {{ limit }} 角色。
+"The password fields must match.": "密码字段必须符合要求。"
+
+oro:
+    user:
+        message:
+            invalid_username: 另一个客户已使用了此邮箱。请使用其他用户名。

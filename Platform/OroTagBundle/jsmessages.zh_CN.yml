@@ -1,0 +1,8 @@
+"Not tagged": "未标记"
+oro:
+    tag:
+        inline_editing:
+            new_tag: "新标签"
+            existing_tag: "此标签已经被添加"
+            loading: "加载中..."
+            no_matches: "没找到匹配的"

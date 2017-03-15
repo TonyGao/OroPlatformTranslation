@@ -1,0 +1,30 @@
+oro:
+    config:
+        module_label: "系统配置"
+
+        actions:
+            collapse_all:  "全部收缩"
+            expand_all:    "展开全部"
+            save_settings: "保存设定"
+            restore_saved_values: "重置"
+
+        menu:
+            system_configuration.label:       "配置"
+            system_configuration.description: "系统配置"
+
+        controller:
+            config.saved.message: "配置已保存"
+            page.reload.message:  "请稍等，直到页面重载..."
+
+        system_configuration:
+            groups:
+                platform.title: "系统配置"
+                general_setup.title: "一般设置"
+            use_default: "使用默认值"
+        acl:
+            action:
+                general.label: 系统配置准入
+
+    dashboard:
+        widgets:
+            quick_launchpad.title: "设定"

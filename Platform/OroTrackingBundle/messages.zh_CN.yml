@@ -1,0 +1,154 @@
+oro:
+    tracking:
+        trackingwebsite:
+            entity_label:        跟踪网站
+            entity_plural_label: 跟踪网站
+            entity_description:  用于跟踪的网站
+
+            id.label:            Id
+            name.label:          名称
+            identifier.label:    标识
+            url.label:           网址
+            owner.label:         属于
+            organization.label:  组织
+            extend_description.label: 描述
+
+            saved_message: 跟踪网站已保存
+
+        trackingevent:
+            entity_label:        跟踪事件
+            entity_plural_label: 跟踪事件
+            entity_description:  已跟踪的事件
+
+            id.label:              Id
+            title.label:           标题
+            name.label:            名称
+            value.label:           值
+            userIdentifier.label:  用户
+            url.label:             网址
+            website.label:         网站
+            code.label:            代码
+            logged_at.label:       登记于
+            user_identifier.label: 用户Id
+            parsed.label:          已解析
+            event_data.label:      跟踪数据
+
+        trackingdata:
+            entity_label:        跟踪数据
+            entity_plural_label: 跟踪数据
+            entity_description:  跟踪的原生数据
+
+            data.label:       数据
+            event.label:      事件
+            id.label:         Id
+
+        trackingvisit:
+            entity_label:        跟踪访问
+            entity_plural_label: 跟踪访问
+            entity_description:  已跟踪的访问
+
+            id.label:                  Id
+            first_action_time.label:   首次操作时间
+            last_action_time.label:    最后一次操作时间
+            parsed_u_i_d.label:        解析的UID
+            parsing_count.label:       解析次数
+            ip.label:                  IP
+            client.label:              客户端
+            client_type.label:         客户端类型
+            client_version.label:      客户端版本
+            os.label:                  操作系统
+            os_version.label:          操作系统
+            desktop.label:             是桌面
+            mobile.label:              是移动系统
+            bot.label:                 是爬虫
+            user_identifier.label:     用户标识
+            visitor_uid.label:         唯一访客ID
+            identifier_detected.label: 检测到UID
+            tracking_website.label:    跟踪网站
+
+        trackingvisitevent:
+            entity_label:        访客事件
+            entity_plural_label: 访客事件
+            entity_description:  跟踪到的访客事件
+
+            id.label:                Id
+            event.label:             事件
+            visit.label:             访问
+            web_event.label:         Web事件
+            parsing_count.label:     解析次数
+            website.label:           跟踪网站
+
+            ip.label:                IP
+            bot.label:               爬虫
+            os.label:                操作系统
+            os_version.label:        操作系统版本
+            client.label:            客户端名称
+            client_version.label:    客户端版本
+            client_type.label:       客户端类型
+            desktop.label:           桌面
+            mobile.label:            移动
+            url.label:               网址
+            title.label:             标题
+            type.label:              类型
+            event_date.label:        事件日期
+            identifier_detected.label: 已识别
+
+        trackingeventdictionary:
+            entity_label:        跟踪访问库
+            entity_plural_label: 跟踪访问库
+            entity_description:  跟踪到的访问类型
+
+            id.label:                Id
+            name.label:              名称
+            visit_events.label:      访问事件
+            website.label:           跟踪网站
+
+        block:
+            general:    一般
+            additional: 额外
+            tracking:   跟踪代码
+            events:     事件
+
+        help:
+            event_tooltip: |
+                请确保此代码位于网站的每个网页的</body>标签之前。
+                要跟踪自定义事件，请取消注释 trackEvent 字符串，并用你自己的值替换
+                name]，[value]，和[user_identifier]参数。
+                此脚本将记录带有名称[name]和选项[value]的事件。
+            secure: |
+                要在安全的（HTTPS）网站上启用跟踪，还应在OroCRM网站服务器上启用HTTPS。
+
+        website_configuration: 跟踪网站
+
+        system_configuration:
+            groups:
+                tracking.title: '跟踪'
+                tracking_settings.title: '跟踪设定'
+            fields:
+                dynamic_tracking_enabled.label: '开启动态跟踪'
+                log_rotate_interval:
+                    label: '日志循环间隔'
+                    choices:
+                        60: '1小时'
+                        30: '30分钟'
+                        20: '20分钟'
+                        15: '15分钟'
+                        10: '10分钟'
+                        5:  '5分钟'
+                piwik_host.label: 'Piwik主机'
+                piwik_token_auth.label: 'Piwik令牌验证'
+        form.tooltip:
+            dynamic_tracking_enabled: |
+                启用实时跟踪信息处理。
+                注意，这可能会对性能产生影响。
+            log_rotate_interval: |
+                日志文件循环多频繁。
+                这个选项仅当非动态跟踪时才需要。
+            piwik_host: |
+                Piwik分析网址。
+                如果设置此选项，所有跟踪信息将传递给piwik实例。
+            piwik_token_auth: |
+                Piwik API令牌认证。它用于进行API调用并将真实的客户端IP传递给piwik。
+                此token_auth与您的登录名和密码一样机密，<strong>不要泄露！</ strong>
+            identifier: |
+                如果Piwik同步已启用，应与Piwik网站ID相同。

@@ -1,0 +1,11 @@
+"am": "am"
+"AM": "AM"
+"pm": "pm"
+"PM": "PM"
+"Sorry, calendar events were not loaded correctly": "抱歉，日程事件没被正确加载"
+"Sorry, calendar event was not saved correctly": "抱歉，日程事件没被正确保存"
+"Yesterday": "昨天"
+
+oro.locale:
+    localization:
+        delete_confirm: '所有相关的本地化数据将被删除。您确定要删除此{{ entityLabel }}吗？'

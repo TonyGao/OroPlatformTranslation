@@ -1,0 +1,28 @@
+oro:
+    layout:
+        system_configuration:
+            groups:
+                development_settings:
+                    title: 开发设定
+                development_layout_settings:
+                    title: 布局
+            fields:
+                debug_block_info:
+                    label: 包含块(block)debug信息到HTML
+                    choices:
+                        no: 否
+                        yes: 是
+                debug_developer_toolbar:
+                    label: 为开发者工具栏生成布局倾倒
+                    tooltip: 这个选项只在debug模式开启时工作
+                    choices:
+                        no: 否
+                        yes: 是
+
+        profiler:
+            title: 布局
+            tree: 布局树
+            context.items: 关联子项
+            messages:
+                tree: 未发现视图树。
+                context.items: 未发现关联子项。

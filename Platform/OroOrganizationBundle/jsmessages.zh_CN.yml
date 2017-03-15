@@ -1,0 +1,5 @@
+oro:
+    business_unit:
+        form:
+            choose_business_user: 选择一个部门...
+            none_business_user:   无

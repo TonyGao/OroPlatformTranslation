@@ -1,0 +1,5 @@
+embedded_form:
+    confirm_box:
+        title: "修改表单类型"
+        ok_text: "是的，继续"
+        content: "你的修改将丢失。"

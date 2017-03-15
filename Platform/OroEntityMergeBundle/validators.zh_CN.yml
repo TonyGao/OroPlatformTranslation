@@ -1,0 +1,5 @@
+"You need minimum {{ limit }} entities to merge.": "您需要最少{{ limit }}个实体进行合并。"
+"You can merge only {{ limit }} entities at once.": "您只能一次合并{{ limit }}个实体。"
+"Add entity before setting it as master.": "添加数据实体，然后将它设定为主要的。"
+"Add entity before setting it as a source entity for {{ field }} field.": "添加数据实体，然后设定它为字段{{ field }}的源数据实体。"
+"Merge entities should be unique.": "合并数据实体应该是唯一的。"

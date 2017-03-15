@@ -1,0 +1,33 @@
+oro:
+    note:
+        enabled:              开启备注
+
+        entity_label:         备注
+        entity_plural_label:  备注
+        entity_description:   备注描述
+
+        id.label:             Id
+        add.label:            添加
+        save.label:           保存
+        message.label:        消息
+        attachment.label:     附件
+        owner.label:          创建人
+        organization.label:   组织
+        updated_by.label:     变更人
+
+        action:
+            add:              添加备注
+            edit:             编辑备注
+            remove:           删除备注
+
+        no_notes_exist:       没找到备注
+        updated_by:           变更人{{ user }}
+        note_added_by:        创建人{{ user }}
+        note_updated_by:      创建人{{ user }}，变更人{{ editor }}
+        note_update:          更新{{ entity }}
+        note_delete:          删除{{ entity }}
+
+    entity_merge:
+        merge_modes:
+            notes_unite: 追加
+            notes_replace: 替换

@@ -1,0 +1,69 @@
+oro:
+    notification:
+        menu:
+            emailnotification_list.description: 邮件通知列表
+
+        controller:
+            emailnotification:
+                saved.message: 邮件通知规则已保存
+
+        event:
+            entity_post_update:  数据实体变更
+            entity_post_persist: 数据实体创建
+            entity_post_remove:  数据实体删除
+
+        form:
+            choose_event: 选取一个事件...
+
+        datagrid:
+            action:
+                update: 更新
+                delete: 删除
+            recipient:
+                user: 接收人用户
+                group: 接收人组
+                custom_email: 接收人邮箱
+                owner: 接收人数据实体持有者
+
+        emailnotification:
+            entity_label:         通知规则
+            entity_plural_label:  通知规则
+            entity_description:   邮件通知描述
+            edit_entity:          编辑通知规则%name%
+            id.label:             Id
+            entity_name.label:    数据实体名称
+            entity_name.tooltip:  只列出具有可用模板的实体。如果您在此列表中没有看到所需的实体，请先创建<a href="url" target="_blank">通知模板</a>。
+            event.label:          事件名称
+            template.label:       模板
+            recipient_list.label: 接收方列表
+            email.label:          邮箱
+            owner.label:          持有者
+
+        massnotification:
+            entity_label:         维护通知
+            entity_plural_label:  维护通知
+            entity_description:   维护邮件通知描述
+            id.label:             Id
+            subject.label:        标题
+            sender.label:         来自
+            body.label:           信息
+            email.label:          发至
+            status.label:         状态
+            status.success:       成功
+            status.failed:        失败
+            scheduled_at.label:   安排在
+            processed_at.label:   发送于
+            action:               查看维护停止
+            block.info:           通知明细
+
+        system_configuration:
+            email_notification_sender_email: 发件人邮箱
+            email_notification_sender_name: 发件人名字
+            title: 通知规则
+            mass_notification:
+              title: 维护通知
+              template: 邮件模板
+              template.tooltip: 默认情况下用于维护通知的模板。<br /> {{maintenance_message | nl2br}}变量用来作为来自maintenance-notification命令消息的占位符。
+              recipients: 接收人
+              recipients.tooltip: 将此字段置空以向所有开启用户发送维护通知电子邮件。要仅向特定用户发送通知，请在其电子邮件地址中输入，以分号（;）分隔。
+

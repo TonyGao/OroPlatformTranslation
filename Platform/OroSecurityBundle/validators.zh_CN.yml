@@ -1,0 +1,4 @@
+oro.security.permission.constraints:
+    name_contains_illegal_characters: >
+        '属性"name"包含非法字符。有效值应以字母开头，并且只包含字母，'
+        '数字，下划线（"_"），连字符（"-"）和冒号（":"）。'

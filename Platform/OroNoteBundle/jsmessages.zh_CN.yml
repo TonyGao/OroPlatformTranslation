@@ -1,0 +1,8 @@
+oro.note.add_note_title:       添加备注
+oro.note.edit_note_title:      更新备注
+oro.note.note_saved:           备注已保存
+oro.note.note_removed:         备注已删除
+oro.note.note_delete_confirmation: 你确定想要删除这个备注吗?
+oro.note.load_notes_error:     抱歉，备注没有被正确加载。
+oro.note.delete_note_error:    抱歉，此备注删除失败。
+oro.note.forbidden_error:      你没权限执行这个操作。

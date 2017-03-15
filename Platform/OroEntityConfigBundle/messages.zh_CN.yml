@@ -1,0 +1,66 @@
+oro:
+    entity_config:
+        action:
+            manage:              进入数据实体管理
+            view_entities:       查看可配置实体
+            update_entity:       更新可配置实体
+            view_entity:         查看可配置实体
+            update_entity_field: 更新可配置实体字段
+            field_search:        返回给定数据实体中的 varchar 类型字段
+
+        block_titles:
+            general.label:       一般信息
+            fields.label:        字段
+            other.label:         其他
+            associations.label:  沟通与协作
+
+        config_log:
+            user.label:      作者
+            diffs.label:     差异
+            logged_at.label: 登记于
+
+        menu:
+            entities_list.label:           数据实体
+            entities_list.description:     数据实体列表
+            entity_management.label:       数据实体管理
+            entity_management.description: 数据实体列表
+
+        controller:
+            config_entity:
+                message:
+                    saved:  数据实体已保存
+                    update: 数据库已更新
+            config_field:
+                message:
+                    saved: 字段已保存
+
+        entity:
+            plural_label:      数据实体
+            information.label: 数据实体信息
+            unique.label:      唯一秘钥
+
+        entity_config:
+            entity_name.label: 名称
+            module_name.label: 模块
+
+        field_config:
+            field_name.label: 名称
+            type.label:       数据类型
+            records_count.label: 记录数量
+
+        info:
+            new_field.label:     新字段
+            records_count.label: '记录数量: %count%'
+
+        form:
+            name.label: 名称
+            type.label: 类型
+
+        import:
+            title: 导入数据实体字段
+            label: 导入字段
+            message:
+                invalid_field_name: 无效字段名称。
+                invalid_field_type: 无效字段类型。
+                change_type_not_allowed: 不允许更改现有字段的类型。
+                require_update_schema: "请点击'更新数据库'来应用修改"

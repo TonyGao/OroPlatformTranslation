@@ -1,0 +1,20 @@
+oro:
+    platform:
+        system_info: 系统信息
+        packages: 软件包
+
+        no_packages: 没有安装的软件包
+        package:
+            name: 软件包名称
+            version: 版本
+            license: 协议
+
+        caption:
+            oro: Oro 软件包
+            thirdParty: 第三方软件包
+        acl:
+            action:
+                system_info.label: Access system information
+    distribution:
+        package_manager:
+            label: 软件包管理器

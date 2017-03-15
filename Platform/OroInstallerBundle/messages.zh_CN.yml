@@ -1,0 +1,108 @@
+title:                    奥诺程序安装
+
+wait:                     等候
+progress:                 进行中...
+passed:                   完成
+failed:                   失败
+skipped:                  跳过
+
+form:
+    configuration:
+        database:
+            header:       MySQL 数据库连接
+            driver:       驱动器
+            host:         主机地址
+            port:         接口
+            user:         用户名
+            password:     密码
+            name:         名称
+            drop:         删除数据库
+            drop_none:    无
+            drop_app:     程序数据表
+            drop_full:    所有数据表
+            mysql_hint:   支持补充字符 (如 emojis表情符号), 建议将MySQL的字符集设定为 utf8mb4
+        mailer:
+            header:       邮箱设定
+            host:         主机
+            port:         接口
+            encryption:   加密
+            user:         用户
+            password:     密码
+            transport:    传输(SMTP)
+        system:
+            header:       系统设定
+            secret:       保密
+            locale:       语言环境
+        websocket:
+            header:       Websocket 连接
+            bind:
+                address:          服务绑定地址
+                port:             服务绑定接口
+                address.tooltip:  socket 服务器将会绑定的主机IP
+                port.tooltip:     socket 服务器将会监听的接口
+            frontend:
+                host:             WS 前端主机
+                port:             WS 前端接口
+                host.tooltip:     浏览器将会连接到的 Websocket 主机
+                port.tooltip:     浏览器将会连接到的 Websocket 接口
+            backend:
+                host:             WS 后端主机
+                port:             WS 后端接口
+                host.tooltip:     程序服务器将会连接到的 Websocket 主机
+                port.tooltip:     程序服务器将会连接到的 Websocket 接口
+    setup:
+        email:             邮箱
+        organization_name: 组织名称
+        application_url:   程序网址
+        username:          用户名
+        firstname:         姓
+        lastname:          名
+        password:          密码
+        password_re:       重新输入密码
+        load_fixtures:     加载示例数据
+
+
+process:
+    step:
+        check:
+            header:        系统需求检测
+        configure:
+            header:        配置
+        schema:
+            header:        数据库初始化
+            cache:         在数据库初始化之前清除缓存
+            clear-config:  清除数据实体缓存
+            clear-extend:  清除扩展的数据实体数据
+            schema-drop:   删除当前数据库
+            schema-update: 数据库更新
+            fixtures:      加载填充数据
+            permissions:   加载权限配置
+            workflows:     加载工作流定义
+            processes:     加载进程配置
+        setup:
+            header:        管理设置
+        installation:
+            header:        安装
+            fixtures:      加载示例数据
+            navigation:    初始化导航
+            js-routing:    倾倒JS路由
+            localization:  倾倒本地化文件
+            assets:        安装资源文件
+            assetic:       倾倒资源文件
+            translation:   准备翻译文件
+            requirejs:     优化JS资源(选项)
+            finish:        清除缓存以完成安装
+        final:
+            header:        结束
+            greeting:      成功!!!
+            content:       '你现在可以开始使用Oro了。<br>如需帮助请加入我们的社区<a href="http://www.orocrm.com/forums">论坛</a>。'
+    button:
+        back:              返回
+        next:              下一步
+        install:           安装
+        finish:            执行程序
+        launch_admin_application: 执行管理程序
+        launch_frontend_application: 执行前端程序
+    operation:             操作
+    status:                状态
+

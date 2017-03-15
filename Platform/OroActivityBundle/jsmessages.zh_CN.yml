@@ -1,0 +1,5 @@
+oro:
+    activity:
+        contexts:
+            added:   相关信息已经添加
+            removed: 相关信息已经删除

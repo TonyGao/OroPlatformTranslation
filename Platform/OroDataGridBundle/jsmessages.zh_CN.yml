@@ -1,0 +1,139 @@
+"Item deleted": "子项已删除"
+"Are you sure you want to delete this item?": "你确定想要删除这个子项吗？"
+"Delete Error": "删除报错"
+"Are you sure you want to delete these items?": "你确定想要删除这些子项吗？"
+"Are you sure you want to remove this item?": "你确定想要移除这个子项吗？"
+"Selected items were deleted.": "选定子项已被删除。"
+"Selected items were not deleted.": "选定子项没被删除。"
+"Please select items to delete.": "请选择用于删除的子项。"
+"You do not have permission to perform this action.": "你没有权限执行这项操作。"
+"Refresh Confirmation": " 刷新确认"
+"Your local changes will be lost. Are you sure you want to refresh grid?": "你的本地修改将丢失。你确定想要刷新数据列表？"
+"Reset Confirmation": "Reset Confirmation"
+"Your local changes will be lost. Are you sure you want to reset grid?": "你的本地修改将丢失。你确定想要重置数据列表？"
+"Confirmation": "确认"
+"edit": "编辑"
+"copy": "复制"
+"remove": "删除"
+"Status": "状态"
+"oro.datagrid.headerCell.selectAll.all": "全部"
+"oro.datagrid.headerCell.selectAll.allVisible": "全部可见"
+"oro.datagrid.headerCell.selectAll.none": "空"
+"only short": "仅限短的"
+"this is long text for test": "这是用于测试的长文本"
+"View per page": "每页显示"
+"Per page": "每页"
+"Mass Action Confirmation": "批量操作确认"
+"Mass action performed.": "批量操作已执行。"
+"Mass action is not performed.": "批量操作未执行。"
+"Please, select items to perform mass action.": "请选取要执行批量操作的子项。"
+"Execution Confirmation": "执行确认"
+"Are you sure you want to do this?": "你确认想要执行吗？"
+"Action performed.": "操作已执行。"
+"Action is not performed.": "操作未被执行。"
+"Please, select item to perform action.": "请选取要执行操作的子项。"
+"Please select view": "请选择查看"
+"oro.datagrid.entityHint": "数据实体"
+"oro.datagrid.no.entities": "没有记录"
+"oro.datagrid.no.results": " 没发现{{ entityHint }}符合你的搜索条件。试试修改你的搜索条件..."
+"oro.datagrid.no.columns": "没为这个数据列表做字段配置"
+"oro.datagrid.pagination.label": "页码"
+"oro.datagrid.pagination.totalPages": "，总页数: {{ totalPages }}"
+"oro.datagrid.pagination.visibleItems": "显示{{ count }}条记录，总数量:{{ total }}"
+"oro.datagrid.pagination.totalRecords": "记录总数{{ totalRecords }}条"
+oro.datagrid.extension.export.label: "输出数据列表"
+oro.datagrid.extension.export.tooltip: "用这个按钮你将输出此数据列表当前显示的带有过滤器和应用排序的数据内容。全部页面都将被输出。"
+oro_datagrid.label_add_filter: "管理过滤器"
+oro_datagrid.action.reset: "重置"
+oro_datagrid.action.refresh: "刷新"
+"oro.datagrid.action.save_grid_view": "保存"
+"oro.datagrid.action.rename_grid_view": "重命名"
+"oro.datagrid.name_modal.title": "数据列表视图"
+"oro.datagrid.action.discard_grid_view_changes": "丢弃修改"
+"oro.datagrid.action.save_grid_view_as": "另存为"
+"oro.datagrid.action.share_grid_view": "与其他用户共享"
+"oro.datagrid.action.unshare_grid_view": "不共享"
+"oro.datagrid.action.delete_grid_view": "删除"
+"oro.datagrid.action.set_as_default_grid_view": "设定为默认"
+"oro.datagrid.gridView.all": "全部"
+"oro.datagrid.gridView.default": "默认"
+"oro.datagrid.gridView.created": "视图已被成功创建"
+"oro.datagrid.gridView.updated": "视图已被成功更新"
+"oro.datagrid.gridView.deleted": "视图已被成功删除"
+"oro.datagrid.gridView.name": "名称"
+"oro.datagrid.gridView.actions": "选项"
+"oro.datagrid.gridView.data_edited": "已编辑"
+"oro.datagrid.gridView.save_name": "保存"
+"oro.datagrid.gridView.error.not_found": "未找到视图"
+"Unexpected format": 未知格式
+"Export Confirmation": "输出确认"
+oro:
+    datagrid:
+        loading_failed_message: "数据加载失败，尝试重新加载页面。如果问题依然存在请联系你的管理员。"
+        toolbar_sorting:
+            label: "排序依据"
+        column_manager:
+            title: "数据列表设定"
+            tooltip: "使用拖拽来排序子项"
+            select_all: "选取全部"
+            filter:
+                all: '全部'
+                selected: '已选中'
+                select_all: '选取全部'
+                search_placeholder: "快速搜索"
+                clear_search_tooltip: "清除快速搜索"
+            column:
+                name: "名称"
+                show: "显示"
+                sort: "排序"
+            close_tooltip: "关闭列管理器"
+            empty_list: "没有列"
+        not_number: 不是数字
+        inline_editing:
+            message:
+                save_field:
+                    permission_denied: 你没有权限修改列{{ fieldLabel }}。
+            refresh_confirm_modal:
+                title: 确认
+            help: |
+                <ul style="margin-bottom: 0px;">
+                    <li><span style="font-family: monospace">Enter</span>, <span style="font-family: monospace">Shift + Enter</span> - 在一列里保存并编辑下一个/前一个单元格</li>
+                	<li><span style="font-family: monospace">Tab</span>, <span style="font-family: monospace">Shift + Tab</span> - 在一行里保存并编辑下一个/前一个单元格</li>
+                	<li><span style="font-family: monospace">Alt + ←/↑/→/↓  </span> - 在单元格间移动</li>
+                	<li><span style="font-family: monospace">Ctrl + Enter</span> - 保存并关闭</li>
+                	<li><span style="font-family: monospace">Escape</span> - 退出</li>
+                </ul>
+        mass_action:
+            title: 批量操作
+            delete:
+                selected_message: >
+                    你已经选取了记录{{ selected }}。<br/>
+                    你确定想要删除它们吗？
+                max_limit_message: >
+                    一次允许删除记录的最多数量为{{ max_limit }}.<br/>
+                    你确定想要删除前边的{{ max_limit }}条选中记录吗？
+                restricted_access_message: >
+                    你有权限删除{{ selected }}中选中的记录{{ deletable }}<br/>
+                    你确定想要删除它们吗？
+                restricted_access_empty_message: >
+                    你没有权限删除选中的任何记录。
+        grid_views:
+            shared_by.label: Shared by {{ name }}
+        sorters:
+            not_selected: '相关性'
+            undefined:
+                ascending: 低到高
+                descending: 高到低
+            string:
+                ascending: A 到 Z
+                descending: Z 到 A
+            number:
+                ascending: 低到高
+                descending: 高到低
+            currency:
+                ascending: 低到高
+                descending: 高到低
+        export:
+            max_limit_message: >
+                一次性可以导出的最多记录数量是{{ max_limit }}。<br/>
+                你确定想要导出{{ total }}条记录？

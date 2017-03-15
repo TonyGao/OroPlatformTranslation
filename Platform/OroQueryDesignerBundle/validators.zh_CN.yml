@@ -1,0 +1,7 @@
+oro:
+    query_designer:
+        condition_builder:
+            condition_item:
+                not_blank: "此条件应该为空。"
+            conditions_group:
+                not_blank: "此组合应该为空。"

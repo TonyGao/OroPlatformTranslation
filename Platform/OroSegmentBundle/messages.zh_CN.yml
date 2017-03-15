@@ -1,0 +1,41 @@
+oro:
+    segment:
+        action:
+            refresh: 刷新分割块
+
+        menu:
+            reports_tab.label: 报表和分割块
+            manage_segments.label: 管理分割块
+
+        definition.label:    定义
+        description.label:   描述
+        entity_label:        分割块
+        entity_plural_label: 分割块
+        id.label:            Id
+        last_run.label:      最后运行
+        name.label:          名称
+        owner.label:         属于
+        organization.label:  组织
+
+        entity:
+            label:   数据实体
+            saved:   分割块已保存
+
+        type:
+            dynamic: 动态
+            label:   类型
+            static:  手动
+
+        form:
+            choose_segment_type:    选取一个分割块类型
+            designer:               设计器
+            columns:                字段
+            filters:                过滤器
+
+        condition_builder:
+            apply_segment:              应用%s分割块
+            criteria.segment_condition: 应用分割块
+            choose_entity_segment:      选择分割块
+
+        refresh_dialog:
+            success: 已成功处理分割块。

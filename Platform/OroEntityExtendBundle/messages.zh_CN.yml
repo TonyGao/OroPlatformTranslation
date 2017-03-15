@@ -1,0 +1,153 @@
+"Your config changes will be applied to schema.": "你的配置修改将应用到数据库。"
+"It may take few minutes...": "这可能会花几分钟的时间..."
+"Field successfully deleted": "字段删除成功"
+
+# TODO: these labels are not used for now. Should be fixed in BAP-10441
+"System": "系统"
+"Custom": "自定义"
+"New": "新的"
+"Requires update": "需要更新"
+"Active": "激活"
+"Deleted": "已删除"
+"Restored": "需要更新"
+
+oro:
+    entity_extend:
+        datagrid:
+            enum:
+                filter.empty:       无
+            dictionary:
+                filter.empty:       无
+        form:
+            data_type_group:
+                fields:             字段
+                relations:          关系
+            data_type:
+                choose_value:       选取一个字段类型...
+
+                string:             String
+                integer:            Integer
+                smallint:           SmallInt
+                bigint:             BigInt
+                boolean:            Boolean
+                decimal:            Decimal
+                date:               Date
+                datetime:           DateTime
+                time:               Time
+                text:               Text
+                float:              Float
+                money:              Currency
+                percent:            Percent
+                duration:           Duration
+                oneToOne:           One to one
+                oneToMany:          One to many
+                manyToOne:          Many to one
+                manyToMany:         Many to many
+                enum:               Select
+                multiEnum:          Multi-Select
+
+                ref-one:            System relation
+                ref-many:           System relation
+                array:              Binary (Array)
+                json_array:         Binary (JSON array)
+                simple_array:       Binary (Simple array)
+                object:             Binary (Object)
+
+                inverse_relation:   重用%entity_name%的"%field_name%"
+            field_name.label:       字段名称
+            name.label:             名称
+            key.label:              键
+            target_entity:          目标数据实体
+            target_field:           目标字段
+            relation:
+                entity_data_fields: 相关数据实体数据字段
+                entity_info_title:  相关数据实体信息标题
+                entity_detailed:    相关数据实体明细
+
+        enum_name:    选项集名称
+        enum_public:  公共的
+        enum_options: 选项
+        enum_name.tooltip: ""
+        enum_public.tooltip: 公共选项集可以在其他数据实体里被重用。
+        enum_options.tooltip: > 
+            一些选项是作为系统级定义的，不能删除。
+            删除一个选项将从所有使用它的记录里删除它。
+        enum_options.priority.tooltip: 点击和拖拽到记录。
+        enum_options.default.tooltip: 如果标记，这个选项将在创建新记录时作为默认值。
+        action:
+            apply_changes: "应用数据实体配置变更"
+            config_entity_grid:
+                unique: "唯一的实体唯一的键"
+                create: "创建自定义实体"
+                remove: "删除自定义实体"
+                unremove: "取消删除自定义实体"
+            config_field_grid:
+                create: "创建自定义字段"
+                update: "更新自定义字段"
+                remove: "删除自定义字段"
+                unremove: "取消删除自定义字段"
+        controller:
+            config_entity:
+                message:
+                    saved: "数据实体已保存"
+            config_field:
+                message:
+                    saved: "字段已保存"
+        unique_keys: "唯一键"
+
+        entity_config:
+            extend:
+                entity:
+                    grid_action:
+                        remove: "删除"
+                        restore: "恢复"
+                    layout_action:
+                        create_entity: "创建数据实体"
+                    items:
+                        owner: "类型"
+                        is_extend: "是扩展的"
+                        state: "数据库状态"
+                        is_deleted: "已删除"
+                field:
+                    grid_action:
+                        remove: "删除"
+                        restore: "恢复"
+                    layout_action:
+                        manage_unique_keys: "管理唯一键"
+                        create_field: "创建字段"
+                        update_schema: "更新数据库"
+                    items:
+                        owner: "类型"
+                        state: "数据库状态"
+                        length: "长度"
+                        precision: "精度(字段长度)"
+                        scale: "范围(小数位数)"
+                        is_deleted: "已删除"
+
+            search:
+                field:
+                    items:
+                        searchable: "可搜索"
+                        searchable.tooltip: 该字段将在完成重新索引作业后显示在搜索结果中，可能需要一些时间
+                        title_field: "搜索结果标题"
+                        title_field.tooltip: 字段值将包括在搜索结果标题中
+                entity:
+                    items:
+                        searchable.tooltip: 在完成重新索引作业后，数据实体将显示在搜索结果中，可能需要一些时间。
+
+        config_grid:
+            entities: 数据实体
+            new_entity: 新的数据实体
+            unique_keys: 唯一键
+            new_field: 新字段
+
+    entityextend:
+        enumvalue:
+            id.label:               Id
+            id.description:         此选项的唯一标识符
+            name.label:             名称
+            name.description:       此选项名称
+            priority.label:         优先级
+            priority.description:   一个用来排序选项的数字
+            default.label:          是默认值
+            default.description:    判断这个选项是不是在创建新记录时选择的默认值

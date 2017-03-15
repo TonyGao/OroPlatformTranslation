@@ -1,0 +1,19 @@
+oro:
+    user:
+        update_status.label: 更新状态
+        suggest_password.label: 生成密码
+        show_hide_password.label: 显示/隐藏密码
+        reset_password:
+            flash:
+                success: 重置密码的邮件已发送给用户
+        change_password:
+            flash:
+                success: 密码已修改
+    role:
+        tabs:
+            all.label: 全部
+            system_capabilities.label: 系统权限
+        capability_block:
+            label: 权限
+            select_all: 选取全部
+            no_capabilities_available: 这个分组没有权限

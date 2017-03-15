@@ -1,0 +1,10 @@
+"Choose a condition": "选择一个条件"
+"Choose a column first": "首先选择一个字段"
+"Drop condition here": "在这里放下条件"
+
+oro:
+    querydesigner:
+        field_not_found: "此字段已不存在"
+        field_condition:
+            filter_not_supported: "不支持此过滤器"
+            lifetimevalue_filter_not_supported: "尚不支持使用LifetimeValue进行过滤。"

@@ -1,0 +1,5 @@
+oro:
+    activity:
+        contexts.tooltip: 关联信息是对营销活动有特殊意义的一条或多条数据记录。当你添加一条记录的相关信息到某营销活动，它将出现在那条记录的营销活动列表里。
+        entity_config:
+            activity.entity.items.activities.tooltip: 要添加这个数据实体的记录到此营销活动的关联信息，需要将它配置为可搜索。否则它不会在关联信息选择器的自动补齐的结果里呈现。

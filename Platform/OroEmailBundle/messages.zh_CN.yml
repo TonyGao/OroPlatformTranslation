@@ -1,0 +1,362 @@
+oro:
+    dashboard:
+        recent_emails:
+            title:       最新邮件
+            inbox:       收件箱
+            sent:        发件箱
+            unread:      未读邮件
+            view_all:    查看全部
+            description: 这个组件允许你查看收件箱和发件箱里最新添加的内容。
+
+    email:
+        imap.folder.checkAll: 全部
+        autocomplete:
+            recently_used: 最近使用
+            contexts: 关联信息
+        filter.inactive: 非激活
+        controller:
+            emailtemplate.saved.message: "模板已保存"
+            job_scheduled.message: "任务已添加到队列 %link%"
+            job_progress: 检查进度
+        form:
+            choose_template:                     ""
+            add_signature:                       添加签名
+            attach_file:                         添加附件
+            from_record:                         从记录
+            upload:                              上传
+            attach:                              附加
+            no_attachments:                      没有附件
+            thread_attachments:                  相关附件
+            record_attachments:                  记录附件
+
+            tooltip:
+                attachment_sync:
+                    enable: 在邮件同步时开启加载附件。
+                    max_size: 同步附件最大容量， Mb。将不会下载超过此大小的附件。设定为0将不做限制。
+                    preview_limit: 附件预览限制(图片预览图和其他文件的大图标)。设定为0将只看到带有文件名的列表。
+
+        variable.not.found:                     不可用
+
+        system_configuration:
+            email_configuration: 邮箱配置
+
+            signature_configuration:
+                label: 签名
+                signature.label: 签名内容
+                append_signature:
+                    label: 添加签名到邮件主体
+                    choices:
+                        auto.label: 自动
+                        manual.label: 手动
+
+            email_threads:
+                label: 相关邮件
+
+            attachment_configuration:
+                label: 附件
+                link_to_scope:
+                    label: 链接附件到相关数据实体
+                    choices:
+                        auto.label: 自动
+                        manual.label: 手动
+                remove_larger_attachments.label: 删除大的附件
+
+            reply_configuration:
+                label: 回复
+                default_button.label: 默认回复按钮
+
+            email_autocomplete_configuration:
+                label: 自动补齐
+                minimum_input_length:
+                    label: 自动补齐触发的最小字符数
+
+            mailbox_configuration:
+                label: 系统邮箱
+                add_mailbox.label: 添加邮箱
+
+            template_configuration:
+                label: 模板中的HTML
+
+            show_recent_emails_in_user_bar:
+                label: 显示最近邮件
+
+            attachment_sync:
+                enable:
+                    label: 开启附件同步
+                max_size:
+                    label: 同步附件允许的大小， Mb
+                preview_limit:
+                    label: 附件预览限制
+
+            sanitize_html:
+                label: 开启HTML过滤器
+                tooltip: 关闭HTML过滤器将允许用户粘贴任何 HTML 代码到模板或邮件主体编辑器，而没有任何标签剥离。
+
+        emailtemplate:
+            entity_label:        邮件模板
+            entity_plural_label: 邮件模板
+            edit_entity:         编辑邮件模板"%name%"
+            clone_entity:        复制邮件模板
+            entity_description:   邮件模板描述
+            id.label:            Id
+            is_system.label:     是系统的
+            is_editable.label:   是可编辑的
+            name.label:          模板名称
+            owner.label:         属于
+            parent.label:        父级
+            subject.label:       主题
+            content.label:       内容
+            entity_name.label:   数据实体名称
+            entity_name.tooltip: 选择一个此模板涉及的数据实体，如果没有任何相关数据实体就置空。
+            type.label:          类型
+            translations.label:  翻译
+            organization.label:  组织
+            visible.label:       可见性
+
+            # sections for email template variables
+            variables:
+                system: '系统变量'
+                entity: '数据实体变量'
+
+            action:
+                preview: 预览
+                clone: 复制
+
+            # email template system variables
+            organization_name:   登录用户的组织名称
+            user_name:           登录用户的用户名
+            user_first_name:     登录用户的姓
+            user_last_name:      登录用户的名
+            user_full_name:      登录用户的全名
+            app_short_name:      程序的简称 #@deprecated since 1.4 Provider\SystemVariablesProvider
+            app_full_name:       程序的全称  #@deprecated since 1.4 Provider\SystemVariablesProvider
+            app_url:             程序的网址
+            current_datetime:    当前日期和时间
+            current_date:        当前日期
+            current_time:        当前时间
+            siganture:           签名(|oro_tag_filter 应该被删除来允许使用它的 html 内容)
+
+        attachment:
+            copy_to_record: 复制到记录
+            save: 下载
+            select_file: 选择文件
+            download_all: 下载
+            view: 查看
+
+        menu:
+            emailtemplate.entity_plural_label: 模板
+            emailtemplate_list.description: 邮件模板列表
+            user_emails: 我的邮件
+            compose: 创建
+            shortcut_compose_email.label: 创建邮件
+            shortcut_compose_email.description: 创建邮件
+            mark_read.label: 标记已阅
+            mark_unread.label: 标记未读
+        notification:
+            menu_item.hint: 最新的邮件
+            mark_read.label: 标记全部为已阅
+            empty: 没有收到任何邮件
+            new_email: 你收到一封新的邮件
+        datagrid:
+            emailtemplate:
+                action:
+                    clone:  "复制"
+                    delete: "删除"
+                    update: "更新"
+                filter:
+                    type:
+                        html: "Html"
+                        txt:  "纯文本"
+                    entityName:
+                        empty: 空
+                page_size:
+                    all: "全部"
+                view:
+                    system_templates: 仅系统
+                    all_templates: 全部
+            emails:
+                action:
+                    view: "查看"
+                    mark_as_read: "标记为已阅"
+                    mark_as_unread: "标记为未读"
+                    enable_to_change_status: "开启修改状态"
+
+            emailfolder:
+                view:
+                    inbox: 收件箱
+                    sent: 发件箱
+            filters:
+                new: 未读邮件
+            mark:
+                success_message: "{0} 没有数据实体被标记|{1} 一个数据实体被标记|]1,Inf[ %count%个数据实体被标记"
+            mailbox:
+                view: '邮箱: %mailbox%'
+
+        handler:
+            attempt_save_system_template: "覆盖系统的模板是被禁止的，请复制它再操作。"
+            unable_to_send_email:         "不能发送邮件。"
+            sender_can_not_be_empty:      "发送器不能为空"
+            recipient_can_not_be_empty:   "收件人不能为空"
+
+        folders.label:            目录
+        folders.tooltip:          如果一个目录被取消选择，保存在里边的所有数据都将被删除
+        retrieve_folders.label:   恢复目录
+        message_type:
+            label:                信息类型
+        folder_type:
+            label:                目录类型
+            sent:                 发件箱
+            inbox:                收件箱
+            other:                其他
+            spam:                 垃圾邮件
+            trash:                回收站
+            drafts:               草稿
+        contact.label:            通讯录
+        mailbox.label:            邮箱
+        date.label:               日期
+        date_time.label:          日期/时间
+        from_email_address.label: 发自
+        from_name.label:          发自
+        email_body.label:         主体
+        entity_label:             邮件
+        entity_plural_label:      邮件
+        entity_description:       邮件信息
+        id.label:                 Id
+        importance.label:         重要性
+        internal_date.label:      内部日期
+        message_id.label:         信息 Id
+        multi_message_id.label:   多个信息 Id
+        received_at.label:        接收时间
+        recipients.label:         接收人
+        send_email:               发送邮件
+        sent_at.label:            发件时间
+        sent_by.label:            发送人 {{ user }}
+        subject:
+            label:                标题
+            no_subject.label:     (没有标题)
+        to.label:                 发送至
+        cc_bcc.label:             抄送/秘密抄送
+        cc.label:                 抄送
+        bcc.label:                秘密抄送
+        x_message_id.label:       x信息 Id
+        x_thread_id.label:        x相关邮件 Id
+        template.label:           应用模板
+        type.label:               类型
+        head.label:               是首封
+        refs.label:               关联首封
+        thread.label:             相关邮件性
+        seen.label:               被查看
+        thread_id.label:          相关邮件 ID
+        show_details.tooltip:     查看明细
+        contexts:
+            tooltip:              关联信息邮件会话中相关联的有意义的任意数量记录。当你为邮件会话添加一条记录作为相关信息，它将被显示在那条记录的营销活动列表里。
+        not_found:                没发现id为"%id%"的邮件
+        forbidden:                操作被禁止
+        empty_body:               清空主体
+        unable_to_load_body:      '很不幸，邮件主体不能从服务器加载下来。可能的原因：邮件被删除，不能连接到服务器。'
+        body_is_unavailable:      主体不可得
+        email_users.label:        用户邮件
+        body_synced.label:        邮件主体同步
+        status:
+            label:                状态
+            unread.label:         未读
+            read.label:           已阅
+        accept_language_header:
+            label: 语言
+
+        entity_config:
+            email:
+                field:
+                    items:
+                        available_in_template: 在邮件模板可得
+
+        reply:                    回复
+        reply_all:                回复全部
+        forward:                  转发
+        view:                     查看邮件
+        forwarded_message:        转发消息
+        parent_message_header:    "于%date%%user%所写:"
+        load_more_emails:         "%quantity%更早的信息"
+
+        emailuser:
+            entity_label:             邮箱用户关系
+            entity_plural_label:      邮箱用户关系
+            email.label:              邮箱
+            folder.label:             目录
+            id.label:                 Id
+            organization.label:       组织
+            owner.label:              用户属于
+            mailbox_owner.label:      邮箱属于
+            received_at.label:        收件时间
+            seen.label:               已阅
+            folders.label:            目录
+            origin.label:             邮件来源
+            unsynced_flag_count.label: 未同步标志数量
+        mailbox:
+            entity_label:             邮箱
+            entity_plural_label:      邮箱
+            id.label:                 Id
+            label.label:              邮箱标签
+            general.label:            一般
+            email.label:              邮件
+            authorized_roles.label:   授权角色
+            authorized_users.label:   授权用户
+            email_users.label:        邮箱用户
+            origin.label:             同步
+            organization.label:       组织
+            action:
+                create:               添加邮箱
+                new:                  新邮箱
+                saved:                "%mailbox%已被保存。"
+            process:
+                label:                邮件处理中
+                type.label:           操作
+                default.label:        不做任何操作
+            access:
+                label:                准入管理
+            auto_response_rules.label: 自动响应规则
+            process_settings.label: 处理设定
+        autoresponserule:
+            entity_plural_label: 自动响应规则
+            name.label:          名称
+            active.label:        开启
+            status.label:        状态
+            conditions.label:    条件
+            template.label:      响应模板
+            action:
+                add.label:    添加规则
+                add.title:    添加自动影响规则
+                update.title: 更新自动响应规则
+            status:
+                active:   开启
+                inactive: 停用
+            form:
+                template:
+                    visible.label: 保存响应为一个邮件模板
+
+        action:
+            sync: 同步邮件
+            processing: 处理中
+            message:
+                success: 邮件同步完成。
+                error: 邮件同步失败。
+                processing: 邮件同步开始，请等待，完成后数据列表将更新...
+
+"%subject% - Email": "%subject% - 邮件"
+"Subject": "标题"
+"Sent": "发送"
+"From": "来自"
+"To": "发送至"
+"Cc": "抄送"
+"Bcc": "秘密抄送"
+"Attachments": "附件"
+"Body": "主体"
+"Send email": "发送邮件"
+"Send": "发送"
+"Content": "内容"
+"Cc/Bcc": "抄送/秘密抄送"
+"Thread view": "相关邮件查看"
+"Date": "日期"
+"Me": "我"
+yesterday: 昨天
+Template data: 模板数据

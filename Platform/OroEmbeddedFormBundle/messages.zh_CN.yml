@@ -1,0 +1,38 @@
+oro:
+    embeddedform:
+        css.label:           CSS
+        entity_label:        嵌入表单
+        entity_plural_label: 嵌入表单
+        form_type.label:     表单类型
+        id.label:            ID
+        title.label:         标题
+        owner.label:         组织
+
+        back_link_default_text: 后退
+        get_code:               获得代码
+        tabs:
+            iframe:
+                label:          Iframe代码
+            inline:
+                label:          Inline代码
+                description: >
+                    注意：使用这个嵌入方法干扰你网站的CSS。
+                    你或许需要修改此表单的CSS。<br />
+                    你也应该检查在所有被允许的域名部分添加所有已知的托管你表单的域名。
+        no_types_available:     嵌入表单不能被创建，因为没发现有表单类型。
+
+        success_message:
+            label: 成功信息
+            default: 表单已成功提交
+            description: 提交表单后会出现这条消息。<br />使用 <strong>{back_link|Back link text}</strong> 占位符添加返回链接给表单。
+
+        allowed_domains:
+            label: 允许的域名
+            default: '*'
+            description: >
+                允许的有嵌入表单的跨域域名。支持通配符，比如 *.example.com
+
+        controller:
+            saved_message: 表单已被成功保存
+        css:
+            description: 仅允许CSS。

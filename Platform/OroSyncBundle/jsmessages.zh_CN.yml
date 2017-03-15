@@ -1,0 +1,2 @@
+"sync.connection.lost": "]-Inf,0]同步器无法连接到服务器。请与您的管理员联系。|{1,2}同步器已断开与服务器的连接。 {{ remain }}重新连接尝试仍存在。|{3}同步器已于服务器断开连接。{{ remain }}重新连接尝试仍存在。"
+"sync.connection.established": "同步器已建立连接"

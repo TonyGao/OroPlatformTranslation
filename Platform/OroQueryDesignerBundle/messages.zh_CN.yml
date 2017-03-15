@@ -1,0 +1,42 @@
+oro:
+    query_designer:
+        datagrid:
+            column:
+                column:         字段
+                label:          标签
+                function:       函数
+                sorting:        排序
+                actions:        操作
+            action:
+                move_column:    移动字段
+                update_column:  更新字段
+                delete_column:  删除字段
+                delete_column_confirmation: 您确定要删除此字段吗？
+                update_filter:  更新过滤器
+                delete_filter:  删除过滤器
+                delete_filter_confirmation: 你确定要删除此过滤器吗？
+        form:
+            action:
+                add:            添加
+                save:           保存
+                cancel:         退出
+            grouping_columns:   组合字段
+            column:             字段
+            label:              标签
+            function:           函数
+            choose_function:    无
+            sorting:            排序
+            choose_sorting:     无
+            sorting_asc:        Asc
+            sorting_desc:       Desc
+            condition:          条件
+        condition_builder:
+            criteria:
+                drag_hint: 拖动选择
+                field_condition:   字段条件
+                aggregated_field_condition:   聚合字段
+                conditions_group:  条件组合
+            choose_entity_field: 选择一个字段...
+        validation:
+            grouping: "%columns% 必须出现在组合里。"
+            query: 无效查询

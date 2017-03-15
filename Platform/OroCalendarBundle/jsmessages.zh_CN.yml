@@ -1,0 +1,39 @@
+oro:
+    calendar:
+        control:
+            all_day: " "
+            today:   今天
+            month:   月
+            week:    周
+            day:     日
+        error_message:
+            event_model:
+                end_date_earlier_than_start: "结束日期不能早于开始日期"
+        flash_message:
+            calendar_already_exists: "这个日程表已经存在"
+            calendar_adding: "添加日程，请等待..."
+            calendar_added: "日程被添加"
+            calendar_removing: "正在删除日程，请等待..."
+            calendar_removed: "日程已删除"
+            calendar_updating: "正在更新日程，请等待..."
+            calendar_updated: "日程已更新"
+"Add New Event": "添加新事件"
+"View Event": "显示事件"
+"Edit Event": "编辑事件"
+"Sorry, calendar events were not loaded correctly": "抱歉，日程事件没有正确加载"
+"Sorry, calendar event was not saved correctly": "抱歉，日程事件没有正确保存"
+"Sorry, the calendar adding was failed": "抱歉，日程添加失败"
+"Sorry, the calendar excluding was failed": "抱歉，日程删除失败"
+"Sorry, the calendar updating was failed": "抱歉，日程更新失败"
+"Sorry, synchronization error was occurred": "抱歉，发生了同步错误"
+"The calendar cannot be changed because the event has guests": "日程不能变更因为此事件包含了被邀请人"
+"Notify guests title": "通知确认"
+"Notify guests message": "关于此变更，你想要通知所有被邀请的用户吗？"
+"Notify": "通知"
+"Don't notify": "不要通知"
+"Not responded": "没有响应"
+"Tentatively accepted": "暂时接受"
+"Accepted": "接受"
+"Reminders": "提醒"
+"Only this particular event will be deleted from the series.": "只有这个特定事件将从此系列中删除。"
+"Calendar event doesn't exist. Please refresh page.": "日程事件不存在。请刷新页面。"

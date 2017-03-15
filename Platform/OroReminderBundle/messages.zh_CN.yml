@@ -1,0 +1,34 @@
+oro:
+    reminder:
+        expire_at.label:                  过期于
+        failure_exception.label:          失败异常
+        id.label:                         Id
+        interval_number.label:            间隔数字
+        interval_unit.label:              间隔单位标签
+        method.label:                     方法
+        recipient.label:                  接收人
+        related_entity_class_name.label:  相关数据实体名称
+        related_entity_id.label:          相关数据实体id
+        sent_at.label:                    发送于
+        start_at.label:                   开始于
+        state.label:                      状态
+        subject.label:                    标签
+        sender.label:                     发送方
+
+        entity_label:        提醒器
+        entity_plural_label: 提醒器
+        entity_description:  提醒器描述
+
+        interval:
+            unit:
+                minute.label: 分钟
+                hour.label:   小时
+                day.label:    天
+                week.label:   周
+
+        processor:
+            email.label:      邮件
+            web_socket.label: 弹出通知
+
+        reminder_template:
+            due_message: 开始于

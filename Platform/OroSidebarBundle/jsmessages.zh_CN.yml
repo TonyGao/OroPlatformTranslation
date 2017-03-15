@@ -1,0 +1,18 @@
+oro.sidebar:
+  widget:
+    add:
+      dialog:
+        title: "侧边栏组件"
+      content:
+        section_title: "添加组件"
+    remove:
+      confirm:
+        message: "此组件将被删除"
+    setup:
+      dialog:
+        title: "组件设置"
+
+  sticky_note_widget:
+      settings: 即时贴
+      content: 即时贴内容
+      description: "这个组件允许你快速创建记事贴士"

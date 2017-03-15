@@ -1,0 +1,67 @@
+"Item deleted": "子项已删除"
+oro_datagrid:
+    no_data_hint %entityHint%: "%entityHint%不存在。"
+    not_found_hint %entityHint%:  "没发现有%entityHint%符合你的搜索条件。修改你的搜索条件试试..."
+    label_add_filter: 管理过滤器
+    label_loading_mask: "加载中 . . ."
+oro:
+    datagrid:
+        gridview:
+            entity_label: 数据列表视图
+            entity_plural_label: 数据列表视图
+            entity_description: 数据列表视图描述
+            filters_data.label: 过滤器
+            grid_name.label: 数据列表名称
+            id.label: Id
+            name.label: 名称
+            owner.label: 属于
+            users.label: 用户
+            organization.label: 组织
+            sorters_data.label: 排序器
+            type.label: 类型
+            shared_by: %name% (由%owner%共享)
+            columns_data.label: 列数据
+            appearance_type.label: 呈现类型
+            appearance_data.label: 呈现数据
+        appearance:
+            grid: 数据列表
+            board: 看板
+    grid:
+        mass_action:
+            label: 批量操作
+            selected_rows: 选中的行
+            confirm_title: 批量操作确认
+            confirm_content: 你确定想要执行吗？
+            confirm_ok: 是的，确定
+            error_title: 批量操作报错
+            error_content: 不能执行批量操作
+            delete:
+                label: 删除
+                confirm_title: 批量删除确认
+                confirm_content: 你确认想要删除这些子项吗？
+                success_message: "{0} No entities were deleted|{1} One entity was deleted|]1,Inf[ %count% entities were deleted"
+        datagrid.page_size.all: 全部
+        export.csv: CSV
+        export.xlsx: XLSX
+        open_link: 打开
+
+        action:
+            view: 查看
+            update: 编辑
+            delete: 删除
+            clone: 复制
+            gridview_create_public:
+                label: 共享数据列表视图
+                description: 与其他用户分享自定义数据列表视图
+            gridview_edit_public:
+                label: 数据列表视图分享取消
+                description: 自定义数据列表视图分享取消
+
+        system_configuration:
+            groups:
+                look_and_feel.title: '显示设定'
+                grid_settings.title: '数据列表设定'
+            fields:
+                default_per_page.label: '默认每页的子项'
+                full_screen_layout_enabled.label: '在数据列表里锁定表头'
+                full_screen_layout_enabled.tooltip: '这个参数控制是否在页面固定时锁定数据列表表头'

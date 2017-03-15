@@ -1,0 +1,25 @@
+oro:
+    entity_merge:
+        controller:
+            merged_successful: 数据实体合并成功。
+            select_error: 选取用于合并的实体。
+        action:
+            merge: 合并 {{ label }}
+        acl:
+            merge: 合并数据实体
+
+        hint:
+            other_related_entities: 所有其他相关实体将使用追加策略进行合并
+        merge_modes:
+            replace: 代替
+            unite: 追加
+
+        form:
+            empty:                 空
+            master_record:         主记录
+            master_record.tooltip: 来自所有记录的字段值将被合并到主记录，所有其他记录将被删除。
+            strategy:              策略
+            strategy.tooltip:      “替换”策略将使用所选值作为所选字段的新值。 “追加”策略将组合所选值并将其设置为新值。
+            select_all:            选取所有值
+            merge_values:          合并值
+            merge_button:          合并

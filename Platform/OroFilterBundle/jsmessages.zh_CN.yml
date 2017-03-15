@@ -1,0 +1,68 @@
+"Close": "关闭"
+"Update": "更新"
+"Now": "现在"
+"Selected Rows": "所选行"
+"Choose values": "选取值"
+"All": "全部"
+"Input Label": "输入标签"
+"more than": "晚于"
+"less than": "早于"
+"before": "之前"
+"after": "之后"
+"from": "从"
+"to": "到"
+"and": "并且"
+oro:
+    filter:
+        wrapper:
+            reset:
+                hint: 重置
+                tooltip: 重置此过滤器
+        date:
+            variable:
+                title: 可得变量
+                tooltip_title: 日期表达
+                tooltip: >
+                    你也可以用它们来创建表达式。<br/>
+                    例如:<br/>
+                    "today - 2" 将被评估为前天.
+            days:
+                title: 天
+            months:
+                title: 月
+            tab:
+                calendar: 日程
+                variables: 变量
+                days: 日
+                months: 月
+            info: >
+                除了确切的日期，过滤器支持输入天和月。
+                从日期中删除年份，以使筛选进入记录里包含
+                任何年份的此日期（例如，11月15日生日的客户）;
+                删除年份和天以按整个月过滤记录
+                （例如在1月和3月之间的所有订单）。月份的长名称和短名称(特指英文)都支持。
+            placeholder:
+                value: 选取一个日期
+                dayofweek: 选取一天
+                week: 输入一周
+                day: 输入一天
+                month: 输入一个月
+                quarter: 输入一个季度
+                dayofyear: 输入一年中的某一天
+                year: 输入一年
+            part:
+                week.tooltip: 周数 (1 - 53)
+                day.tooltip: 月的天数 (1 - 31)
+                quarter.tooltip: 年的季度数 (1 - 4)
+                dayofyear.tooltip: 一年中的天数 (1 - 366)
+                year.tooltip: 格里年，从公元1年开始
+        embedded:
+            choice:
+                field_to_value: 字段值
+            date:
+                field_to_value: 字段
+            select:
+                field_to_value: 字段值是
+        choice-tree:
+            all: 全部
+            selected: 已选取

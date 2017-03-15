@@ -1,0 +1,68 @@
+oro:
+    filter:
+        reset.label: 清除全部过滤器
+        form:
+            label_type_equal:              "="
+            label_type_not_equal:          "<>"
+            label_type_greater_equal:      ">="
+            label_type_greater_than:       ">"
+            label_type_less_equal:         "<="
+            label_type_less_than:          "<"
+            label_type_empty:              为空
+            label_type_not_empty:          不为空
+            label_type_in:                 是任何一个
+            label_type_not_in:             不是任何
+            label_type_yes:                是
+            label_type_no:                 否
+            label_type_contains:           包含
+            label_type_not_contains:       不含
+            label_type_equals:             等于
+            label_type_start_with:         以...开始
+            label_type_end_with:           以...结束
+            label_type_range_between:      之间
+            label_type_range_not_between:  不在之间
+            label_type_range_equals:       等于
+            label_type_range_not_equals:   不等于
+            label_type_range_more_than:    大于
+            label_type_range_less_than:    小于
+            label_type_range_more_equals:  大于等于
+            label_type_range_less_equals:  小于等于
+            label_date_type_between:       之间
+            label_date_type_not_between:   不在之间
+            label_date_type_more_than:     晚于
+            label_date_type_less_than:     早于
+            label_date_type_equals:        等于
+            label_date_type_not_equals:    不等于
+            label_not_selected:            未选择
+            label_selected:                已选择
+            label_date_part.source:        来源
+            label_date_part.value:         值
+            label_date_part.dayofweek:     星期几
+            label_date_part.week:          周
+            label_date_part.day:           日
+            label_date_part.month:         月
+            label_date_part.quarter:       季度
+            label_date_part.dayofyear:     日期
+            label_date_part.year:          年
+            label_date_var.now:            现在
+            label_date_var.today:          今天
+            label_date_var.sow:            一周的开始
+            label_date_var.som:            月初
+            label_date_var.soq:            季度初
+            label_date_var.soy:            年初
+            label_date_var.this_day:       当前日
+            label_date_var.this_day_w_y:   没有年的日期
+            label_date_var.this_week:      本周
+            label_date_var.this_month:     本月
+            label_date_var.this_month_w_y: 没有年的本月
+            label_date_var.this_quarter:   本季度
+            label_date_var.this_year:      本年
+            label_date_var.this_fdq:       季度的首日
+            label_date_var.this_fmq:       季度的首月
+        date:
+            info: >
+                除了确切的日期，过滤器支持输入天和月。
+                从日期中删除年份，以使筛选进入记录里包含
+                任何年份的此日期（例如，11月15日生日的客户）;
+                删除年份和天以按整个月过滤记录
+                （例如在1月和3月之间的所有订单）。月份的长名称和短名称(特指英文)都支持。
